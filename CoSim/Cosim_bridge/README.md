@@ -15,7 +15,11 @@
 ```
 Cosim_bridge.exe --mapping-json C:\CM_Projects\MyProject\CoSim\cosim_vehicle_mapping.json
 ```
+or
 
+```bat
+run_Cosim_bridge.bat --mapping-json C:\path\to\MyProject\CoSim\cosim_vehicle_mapping.json
+```
 Spawn mode starts SUMO for you. Attach mode: start SUMO yourself, then add `--traci-connect`.
 
 See kit docs chapter **04 — Cosim_bridge**.
