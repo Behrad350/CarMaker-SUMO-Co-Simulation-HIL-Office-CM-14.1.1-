@@ -1,0 +1,788 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-TestRun 14
+FileCreator = CarMaker Office 14.0.1
+Description:
+Vehicle = Examples/Demo_Audi_R8
+Trailer =
+Tire.0 =
+Tire.1 =
+Tire.2 =
+Tire.3 =
+Snapshot.TimeLimit =
+Snapshot.DistLimit =
+Road.FName = Examples/Measured/Scenario/ITA_StelvioPass.rd5
+Vehicle.DriverTemplate.FName = TestRun
+Vehicle.KnowledgeTemplate.Name =
+Vehicle.UserDriver.Long.FName =
+Vehicle.Routing.Type = Route
+Vehicle.Routing.ObjId = 1136
+Vehicle.StartPos.Type = Route
+Vehicle.StartPos.ObjId = 1136
+Vehicle.StartPos = 0.0 0.0
+Vehicle.StartPos.Orientation.Type = Relative
+Vehicle.StartPos.Orientation = 0.0
+DrivMan.nMan = 1
+DrivMan.Man.Start.Velocity = 0.0
+DrivMan.Man.Start.SteerAng = 0
+DrivMan.Man.Start.LaneOffset = 0
+DrivMan.Man.Start.OperatorActive = 1
+DrivMan.Man.Start.OperatorState = drive
+DrivMan.VhclOperator.Kind = IPGOperator 1
+DrivMan.SelectorCtrlMapping.Kind =
+DrivMan.Man.0.nLongSteps = 5
+DrivMan.Man.0.nLatSteps = 5
+DrivMan.Man.0.CombinedSteps = 1
+DrivMan.Man.0.MaxExec = 1
+DrivMan.Man.0.ConsiderDomain = own
+DrivMan.Man.0.Transition.Interrupt = self
+DrivMan.Man.0.Transition.EndCond = end
+DrivMan.Man.0.Transition.SimultanStart = end
+DrivMan.Man.0.LongStep.0.Info = test
+DrivMan.Man.0.LongStep.0.DistLimit = 430
+DrivMan.Man.0.LongStep.0.Dyn = Driver 1 0 250
+DrivMan.Man.0.LongStep.1.Info = Moving left
+DrivMan.Man.0.LongStep.1.DistLimit = 30
+DrivMan.Man.0.LongStep.1.Dyn = Driver 1 0 250
+DrivMan.Man.0.LongStep.2.DistLimit = 180
+DrivMan.Man.0.LongStep.2.Dyn = VelControl 125 0.0 1.0 0 1 0
+DrivMan.Man.0.LongStep.3.Info = Moving right
+DrivMan.Man.0.LongStep.3.TimeLimit = 2
+DrivMan.Man.0.LongStep.3.Dyn = Driver 1 0 250
+DrivMan.Man.0.LongStep.4.TimeLimit = 1000
+DrivMan.Man.0.LongStep.4.Dyn = Driver 1 0 250
+DrivMan.Man.0.LatStep.0.Info = test
+DrivMan.Man.0.LatStep.0.DistLimit = 430
+DrivMan.Man.0.LatStep.0.Dyn = Driver 0
+DrivMan.Man.0.LatStep.1.Info = Moving left
+DrivMan.Man.0.LatStep.1.DistLimit = 30
+DrivMan.Man.0.LatStep.1.Dyn = Driver 2.25
+DrivMan.Man.0.LatStep.2.DistLimit = 180
+DrivMan.Man.0.LatStep.2.Dyn = Driver 2.25
+DrivMan.Man.0.LatStep.3.Info = Moving right
+DrivMan.Man.0.LatStep.3.TimeLimit = 2
+DrivMan.Man.0.LatStep.3.Dyn = Driver 0.0
+DrivMan.Man.0.LatStep.4.TimeLimit = 1000
+DrivMan.Man.0.LatStep.4.Dyn = Driver 0.0
+Env.StartTime.Year = 2024
+Env.StartTime.Month = 11
+Env.StartTime.Day = 21
+Env.StartTime.Hour = 12
+Env.StartTime.Min = 0
+Env.StartTime.Sec = 0
+Env.StartTime.DeltaUTC = 0.0
+Env.GNav.Active = 0
+Env.Temperature = 20.0
+Env.AirDensity = 1.205
+Env.AirPressure = 1.013
+Env.AirHumidity = 60
+Env.SolarRadiation = 400.0
+Env.Sun.Position = angleDefinition
+Env.Sun.Azimuth = 45.0
+Env.Sun.Elevation = 45.0
+Env.Cloud.Kind = simple
+Env.Cloud.Height = 800
+Env.Cloud.Intensity = 0.20
+Env.Cloud.Velocity = 10
+Env.Cloud.Angle = 45
+Env.FogActive = 0
+Env.VisRangeInFog = 10000
+Env.FogUseSkyColor = 0
+Env.FogColor = 0.5 0.5 0.5
+Env.Precipitation.Type = None
+Env.Wind.Kind = none
+Env.Wind.Velocity = 0.0
+Env.Wind.Angle = 0.0
+Env.Kind = Generic
+Env.Temp.Offset_Elev = -0.0065
+Env.Temp.Offset_sRoad.Amplify = 1.0
+Env.Temp.Offset_sRoad.On = 0
+Env.Temp.Offset_Time.Amplify = 1.0
+Env.Temp.Offset_Time.On = 1
+Env.Temp.Offset_Time:
+	0.0 -2.0
+	3.0 -2.5
+	6.0 -2.7
+	7.5 -2.7
+	9.0 -2.5
+	10.0 -2.3
+	11.0 -1.6
+	12.0 0.0
+	13.0 1.4
+	14.0 2.1
+	15.5 2.5
+	17.0 2.2
+	18.0 1.7
+	19.0 1.1
+	20.0 0.2
+	21.0 -0.6
+	22.0 -1.1
+	23.0 -1.6
+	24.0 -2.0
+Env.Settings.Commands:
+Env.nEvent = 0
+Driver.Info = Driver parametrization saved in Test Run
+Driver.Mode = std
+Driver.MultiStep = 1
+Driver.Course.LapDriving = 1
+Driver.Course.CornerCutCoef = 0.75
+Driver.Course.ApexShiftCoef = 0.0
+Driver.Course.CornerRoundCoef = 0.0
+Driver.Course.ShapeCoef = 1.0
+Driver.Course.PylonShiftFdCoef = 0.1
+Driver.Course.PylonShiftBkCoef = 0.1
+Driver.Acc.GGExp:
+	50 1.0 1.0
+Driver.Acc.axMax = 3.0
+Driver.Acc.axMin = -4.0
+Driver.Acc.ayMax = 4.0
+Driver.Acc.UseVelDepend = 0
+Driver.Acc.Factor.Accel = 1.0
+Driver.Acc.Factor.Decel = 1.0
+Driver.Acc.Factor.Lateral = 0.95
+Driver.Vel.CruisingSpeed = 250
+Driver.Vel.dtMinAccelDecel = 0.5
+Driver.Vel.Random.Amp = 0.0
+Driver.Vel.Random.Freq = 1.0
+Driver.Vel.LatInclFromRoad = 1
+Driver.Vel.MinimumSpeed = 1.0
+Driver.Long.Active = 1
+Driver.Long.TractionControl = 1
+Driver.Long.dtAccBrake = 0.25
+Driver.Long.dtAccBrakeKind = 0
+Driver.Long.DevMax = 0.0
+Driver.Long.tReact = 0.0
+Driver.Long.SmoothCoef = 0.0
+Driver.Long.SmoothThrottleLimit = 1.0
+Driver.Long.AccuracyCoef = 1
+Driver.Long.Rally.BrakeSlipCoef =
+Driver.Long.Rally.SideSlipCoef =
+Driver.Long.Rally.Active = 0
+Driver.Long.DriveCycle.Coef = 0.000
+Driver.Long.DriveCycle.Tol = 0
+Driver.Long.DragTorqueBraking = 0
+Driver.Long.ThrottleVelRelease = 10.0
+Driver.Long.ThrottleVelPush = 10.0
+Driver.Long.BrakeVelRelease = 10.0
+Driver.Long.BrakeVelPush = 10.0
+Driver.Long.ActuatorAccMax = 1000.0
+Driver.Long.ThrottleAmp = 1.0
+Driver.Long.BrakeAmp = 1.0
+Driver.Long.ClutchAmp = 1.0
+Driver.Long.dtSwitchGear = 0.0
+Driver.Long.Road3DRedCoef = 0.0
+Driver.Lat.Active = 1
+Driver.Lat.RiderRollType = 3
+Driver.Lat.RiderRollAmplify = 1.0
+Driver.Lat.DevMax = 0.0
+Driver.Lat.tReact = 0.0
+Driver.Lat.DevProReact =
+Driver.Lat.tDwell =
+Driver.Lat.StAHandOverHand =
+Driver.Lat.tHandOverHand =
+Driver.Lat.AccuracyCoef = 1.0
+Driver.Lat.StTorqueRequestSensitivity =
+Driver.Lat.StTorqueRequestCompCoef =
+Driver.Lat.StWhlAngleMax = 630
+Driver.Lat.StWhlAngleVelMax = 1500
+Driver.Lat.StWhlAngleAccMax = 20000.0
+Driver.Lat.StWhlTorqueMax = 20.0
+Driver.Lat.StWhlTorqueVelMax = 1000.0
+Driver.Lat.SteeringAmp = 1.0
+Driver.DecShift.UseBrakePark = 0
+Driver.DecShift.tSwitchGear = 0.5
+Driver.DecShift.AsymClutch = 0.0
+Driver.DecShift.AsymClutchDown = 0.0
+Driver.DecShift.AsymShift = 0.0
+Driver.DecShift.tSSNeutralGear =
+Driver.DecShift.nEngine.Limits:
+	1500 4000
+Driver.DecShift.nEngine.Shift:
+	2000 3000
+Driver.Consider.SpeedLimit = 0
+Driver.Consider.StopMarker = 1
+Driver.Consider.TrfLight = 1
+Driver.Consider.Traffic = 1
+Driver.Traffic.Overtake = 1
+Driver.Traffic.TimeGapMin = 0.5
+Driver.Traffic.TimeGapMax = 5.0
+Driver.Traffic.DistMin = 6.0
+Driver.Traffic.DistMax = 250.0
+Driver.Traffic.EcoCoef = 0.75
+Driver.Traffic.Overtake.Rate = 2
+Driver.Traffic.Overtake.dSpeedMin = 3.0
+Driver.Traffic.Overtake.Multilane = 1
+Driver.Traffic.Ongoing.FollowVelThresh = 50.0
+Driver.Traffic.Ongoing.OvertakeVelDiff = 10.0
+Driver.Traffic.Overtake.SetIndicator = 1
+Driver.Percept.nObjMax = 4
+Driver.Percept.nLanesMax = 3
+Driver.Percept.UpdRate = 100
+Driver.DecShift.nEngine.MaxSpeed:
+	3000 4000
+	5000 6000
+Driver.DecShift.nEngine.MaxSpeed.UserDefined = 0
+Driver.Acc.VelDepend:
+	20.00 8.17 -11.97 8.98
+	30.00 8.12 -11.97 9.21
+	40.00 7.99 -11.97 9.44
+	50.00 7.69 -11.99 9.68
+	60.00 6.99 -12.02 9.92
+Driver.Acc.VelDepend.UserDefined = 0
+Driver.OutSdcv = 0
+Driver.Knowl.0.Name = Knowledge
+Driver.Knowl.0.Info = Example Driver Knowledge
+Driver.Knowl.0.Mode = std
+Driver.Knowl.0.Vehicle = Examples/Demo_Audi_R8
+Driver.Knowl.0.Testrun =
+Driver.Knowl.0.Friction = 1.0
+Driver.Knowl.0.VehicleLimits.Date = 2025-05-19 00:50:21
+Driver.Knowl.0.VehicleLimits.Testrun =
+Driver.Knowl.0.ControllerDyn.Date = 2025-05-19 00:50:21
+Driver.Knowl.0.ControllerDyn.Testrun =
+Driver.Knowl.0.RaceAdaption.Date =
+Driver.Knowl.0.RaceAdaption.Testrun =
+Driver.Knowl.0.LearningRate =
+Driver.Knowl.0.Vhcl.ReferencePointType = PoI
+Driver.Knowl.0.Vhcl.Acc:
+	20.00	    5.31	  -11.08	    8.31
+	30.00	    5.69	  -11.08	    8.54
+	40.00	    6.49	  -11.08	    8.77
+	50.00	    7.34	  -11.09	    9.00
+	60.00	    7.84	  -11.09	    9.23
+	70.00	    7.97	  -11.11	    9.46
+	80.00	    7.82	  -11.13	    9.63
+	90.00	    7.37	  -11.17	    9.67
+	100.00	    6.76	  -11.20	    9.65
+	110.00	    6.06	  -11.24	    9.62
+	120.00	    5.64	  -11.28	    9.58
+	130.00	    5.41	  -11.32	    9.55
+	140.00	    4.96	  -11.36	    9.50
+	150.00	    4.21	  -11.40	    9.46
+	160.00	    3.53	  -11.44	    9.41
+	170.00	    3.28	  -11.50	    9.37
+	180.00	    3.24	  -11.56	    9.32
+	190.00	    3.22	  -11.62	    9.28
+	200.00	    3.15	  -11.69	    9.22
+	210.00	    2.96	  -11.76	    9.17
+	220.00	    2.63	  -11.84	    9.12
+	230.00	    2.23	  -11.92	    9.07
+	240.00	    2.01	  -12.00	    9.02
+	250.00	    1.91	  -12.08	    8.97
+	260.00	    1.79	  -12.17	    8.93
+	270.00	    1.61	  -12.26	    8.93
+	280.00	    1.39	  -12.36	    9.02
+	290.00	    1.23	  -12.46	    9.16
+	300.00	    1.14	  -12.58	    9.31
+	310.00	    1.09	  -12.72	    9.45
+	320.00	    1.05	  -12.79	    9.59
+	330.00	    1.01	  -12.79	    9.73
+Driver.Knowl.0.Vhcl.DrivelineKind = 2
+Driver.Knowl.0.nEngine.MaxSpeed:
+	883	7700
+	4425	7828
+	5349	8026
+	4430	7819
+	5344	7541
+	5591	7561
+	5148	8563
+Driver.Knowl.0.Long.tPreviewAcc = 0.690
+Driver.Knowl.0.Long.tPreviewBra = 0.710
+Driver.Knowl.0.Long.tPreEngDyn = 0.033
+Driver.Knowl.0.Long.tPreBraDyn = 0.093
+Driver.Knowl.0.Long.tPreEngDead = 0.000
+Driver.Knowl.0.Long.tPreBraDead = 0.000
+Driver.Knowl.0.Long.ThrottlePfP = 0.031
+Driver.Knowl.0.Long.BrakePfP = 0.000
+Driver.Knowl.0.Long.SlipMax:
+	43.26	   3.99	   2.29
+	81.60	   4.08	   2.34
+	116.61	   4.04	   2.32
+	154.03	   3.96	   2.27
+	193.34	   3.85	   2.20
+	232.83	   3.72	   2.13
+	272.59	   3.62	   2.07
+Driver.Knowl.0.Long.axDragG1 = 0.604
+Driver.Knowl.0.Long.vIdle = 9.838
+Driver.Knowl.0.Lat.tPreview = 0.543
+Driver.Knowl.0.Lat.tPreDyn = 0.057
+Driver.Knowl.0.Lat.tYawPro = 0.013
+Driver.Knowl.0.Lat.StWhlTorqueAmplify = 1.000
+Driver.Knowl.0.Lat.StWhlTorqueAmplifyC = 1.000
+Driver.Knowl.0.Lat.StWhlTorqueAmplifyV = 1.000
+Driver.Knowl.0.Lat.LimitSideSlip = 9.389
+Driver.Knowl.0.Learn.G2GearNo = 2
+Driver.Knowl.0.Learn.G3GearNo = 4
+Driver.Knowl.0.Learn.axAccG2 = 6.902
+Driver.Knowl.0.Learn.axAccMax = 7.92	7.01	5.57	3.33	2.30	1.99	1.68
+Driver.Knowl.0.Learn.axBravG2nEng05 = -11.079
+Driver.Knowl.0.Learn.ayMax = 0.00	9.63	9.68	9.59	9.46	9.28	9.06
+Driver.Knowl.0.Learn.nEngineIdle = 883
+Driver.Knowl.0.Learn.vG2nEng025 = 38.062
+Driver.Knowl.0.Learn.vG2nEng075 = 90.203
+Driver.Knowl.0.Learn.vnEng05 = 52.989	64.047	84.623	133.706	169.143	182.140	194.970
+Driver.Knowl.0.Long.nEngineMax = 8563
+Driver.Knowl.0.Long.vMax = 328.486
+Driver.Knowl.0.Vhcl.hCOG = 0.524
+Driver.Knowl.N = 1
+Traffic.SpeedUnit = ms
+Traffic.IFF.FName =
+Traffic.IFF.Time.Name = Time
+Traffic.GenDriverBehavior.FName = Default
+Traffic.0.Name = T00
+Traffic.0.Info:
+	Generic traffic object
+Traffic.0.DetectMask = 1 1
+Traffic.0.UpdRate = 200
+Traffic.0.AutoDrv.UpdRate = 200
+Traffic.0.Lighting = 0
+Traffic.0.FreeMotion = 0
+Traffic.0.TrailerName =
+Traffic.0.Template.FName = 1_Vehicles/IPG_CompanyCar_2018_Blue
+Traffic.0.AutoDriver.FName = Car_HDM_Normal
+Traffic.0.Routing.Type = Route
+Traffic.0.Routing.ObjId = 1136
+Traffic.0.StartPos.Type = Route
+Traffic.0.StartPos.ObjId = 1136
+Traffic.0.StartPos = 50 0.0
+Traffic.0.StartPos.Orientation.Type = Relative
+Traffic.0.StartPos.Orientation = 0.0 0.0 0.0
+Traffic.0.nMan = 1
+Traffic.0.Man.Start.Velocity = 0.0
+Traffic.0.Man.TreatAtEnd = FreezePos
+Traffic.0.Man.0.nLongSteps = 1
+Traffic.0.Man.0.nLatSteps = 1
+Traffic.0.Man.0.CombinedSteps = 1
+Traffic.0.Man.0.MaxExec = 1
+Traffic.0.Man.0.ConsiderDomain = own
+Traffic.0.Man.0.Transition.Interrupt = self
+Traffic.0.Man.0.Transition.EndCond = end
+Traffic.0.Man.0.Transition.SimultanStart = end
+Traffic.0.Man.0.LongStep.0.Limit = s 8000
+Traffic.0.Man.0.LongStep.0.Dyn = auto 35
+Traffic.0.Man.0.LatStep.0.Limit = s 8000
+Traffic.0.Man.0.LatStep.0.Dyn = auto
+Traffic.1.Name = T01
+Traffic.1.Info:
+	Generic traffic object
+Traffic.1.DetectMask = 1 1
+Traffic.1.UpdRate = 200
+Traffic.1.AutoDrv.UpdRate = 200
+Traffic.1.Lighting = 0
+Traffic.1.FreeMotion = 0
+Traffic.1.TrailerName =
+Traffic.1.Template.FName = 1_Vehicles/IPG_CompanyCar_2018_Blue
+Traffic.1.AutoDriver.FName = Car_HDM_Normal
+Traffic.1.Routing.Type = Route
+Traffic.1.Routing.ObjId = 1136
+Traffic.1.StartPos.Type = Route
+Traffic.1.StartPos.ObjId = 1136
+Traffic.1.StartPos = 950 0.0
+Traffic.1.StartPos.Orientation.Type = Relative
+Traffic.1.StartPos.Orientation = 0.0 0.0 0.0
+Traffic.1.nMan = 1
+Traffic.1.Man.Start.Velocity = 0.0
+Traffic.1.Man.TreatAtEnd = FreezePos
+Traffic.1.Man.0.nLongSteps = 1
+Traffic.1.Man.0.nLatSteps = 1
+Traffic.1.Man.0.CombinedSteps = 1
+Traffic.1.Man.0.MaxExec = 1
+Traffic.1.Man.0.ConsiderDomain = own
+Traffic.1.Man.0.Transition.Interrupt = self
+Traffic.1.Man.0.Transition.EndCond = end
+Traffic.1.Man.0.Transition.SimultanStart = end
+Traffic.1.Man.0.LongStep.0.Limit = t 999
+Traffic.1.Man.0.LongStep.0.Dyn = auto 75
+Traffic.1.Man.0.LatStep.0.Limit = t 999
+Traffic.1.Man.0.LatStep.0.Dyn = auto
+Traffic.2.Name = T02
+Traffic.2.Info:
+	Generic traffic object
+Traffic.2.DetectMask = 1 1
+Traffic.2.UpdRate = 200
+Traffic.2.AutoDrv.UpdRate = 200
+Traffic.2.Lighting = 0
+Traffic.2.FreeMotion = 0
+Traffic.2.TrailerName =
+Traffic.2.Template.FName = 1_Vehicles/Scania_R730_2010_01
+Traffic.2.AutoDriver.FName = Truck_HDM_Normal
+Traffic.2.Routing.Type = Route
+Traffic.2.Routing.ObjId = 1134
+Traffic.2.StartPos.Type = Route
+Traffic.2.StartPos.ObjId = 1134
+Traffic.2.StartPos = 8680 0.0
+Traffic.2.StartPos.Orientation.Type = Relative
+Traffic.2.StartPos.Orientation = 0.0 0.0 0.0
+Traffic.2.nMan = 1
+Traffic.2.Man.Start.Velocity = 0.0
+Traffic.2.Man.TreatAtEnd = FreezePos
+Traffic.2.Man.0.nLongSteps = 4
+Traffic.2.Man.0.nLatSteps = 4
+Traffic.2.Man.0.CombinedSteps = 1
+Traffic.2.Man.0.MaxExec = 1
+Traffic.2.Man.0.ConsiderDomain = own
+Traffic.2.Man.0.Transition.Interrupt = self
+Traffic.2.Man.0.Transition.EndCond = end
+Traffic.2.Man.0.Transition.SimultanStart = end
+Traffic.2.Man.0.LongStep.0.Limit = t 216
+Traffic.2.Man.0.LongStep.0.Dyn = auto 45
+Traffic.2.Man.0.LongStep.1.Limit = t 7
+Traffic.2.Man.0.LongStep.1.Dyn = auto 45
+Traffic.2.Man.0.LongStep.2.Limit = t 2
+Traffic.2.Man.0.LongStep.2.Dyn = auto 45
+Traffic.2.Man.0.LongStep.3.Limit = s 6000
+Traffic.2.Man.0.LongStep.3.Dyn = auto 45
+Traffic.2.Man.0.LatStep.0.Limit = t 216
+Traffic.2.Man.0.LatStep.1.Limit = t 7
+Traffic.2.Man.0.LatStep.1.Dyn = y -0.35
+Traffic.2.Man.0.LatStep.2.Limit = t 2
+Traffic.2.Man.0.LatStep.2.Dyn = y 0
+Traffic.2.Man.0.LatStep.3.Limit = s 6000
+Traffic.2.Man.0.LatStep.3.Dyn = auto
+Traffic.3.Name = T02_1
+Traffic.3.Info:
+	Generic traffic object
+Traffic.3.DetectMask = 1 1
+Traffic.3.UpdRate = 200
+Traffic.3.AutoDrv.UpdRate = 200
+Traffic.3.Lighting = 0
+Traffic.3.FreeMotion = 0
+Traffic.3.TrailerName =
+Traffic.3.Template.FName = 1_Vehicles/WeatherVehicles/MB_GT_2016_Weather
+Traffic.3.AutoDriver.FName = Car_HDM_Aggressive_1
+Traffic.3.Routing.Type = Route
+Traffic.3.Routing.ObjId = 1134
+Traffic.3.StartPos.Type = Route
+Traffic.3.StartPos.ObjId = 1134
+Traffic.3.StartPos = 8300 0.0
+Traffic.3.StartPos.Orientation.Type = Relative
+Traffic.3.StartPos.Orientation = 0.0 0.0 0.0
+Traffic.3.nMan = 1
+Traffic.3.Man.Start.Velocity = 0.0
+Traffic.3.Man.TreatAtEnd = FreezePos
+Traffic.3.Man.0.nLongSteps = 5
+Traffic.3.Man.0.nLatSteps = 5
+Traffic.3.Man.0.CombinedSteps = 1
+Traffic.3.Man.0.MaxExec = 1
+Traffic.3.Man.0.ConsiderDomain = own
+Traffic.3.Man.0.Transition.Interrupt = self
+Traffic.3.Man.0.Transition.EndCond = end
+Traffic.3.Man.0.Transition.SimultanStart = end
+Traffic.3.Man.0.LongStep.0.Limit = t 125
+Traffic.3.Man.0.LongStep.0.Dyn = auto 130
+Traffic.3.Man.0.LongStep.1.Limit = t 89.5
+Traffic.3.Man.0.LongStep.1.Dyn = Tracking 12 distance 0
+Traffic.3.Man.0.LongStep.1.Reference = T02 trailing 0
+Traffic.3.Man.0.LongStep.1.CoordinateSystem = road
+Traffic.3.Man.0.LongStep.2.Limit = t 2.5
+Traffic.3.Man.0.LongStep.2.Dyn = a 5
+Traffic.3.Man.0.LongStep.3.Limit = t 2.5
+Traffic.3.Man.0.LongStep.3.Dyn = a 5
+Traffic.3.Man.0.LongStep.4.Limit = s 5000
+Traffic.3.Man.0.LongStep.4.Dyn = auto 135
+Traffic.3.Man.0.LatStep.0.Limit = t 125
+Traffic.3.Man.0.LatStep.0.Dyn = auto
+Traffic.3.Man.0.LatStep.1.Limit = t 89.5
+Traffic.3.Man.0.LatStep.1.Dyn = auto
+Traffic.3.Man.0.LatStep.2.Limit = t 2.5
+Traffic.3.Man.0.LatStep.2.Dyn = LaneOffset 2.7 quintic
+Traffic.3.Man.0.LatStep.3.Limit = t 2.5
+Traffic.3.Man.0.LatStep.3.Dyn = LaneOffset 0 quintic
+Traffic.3.Man.0.LatStep.4.Limit = s 5000
+Traffic.3.Man.0.LatStep.4.Dyn = auto
+Traffic.4.Name = T02_2
+Traffic.4.Info:
+	Generic traffic object
+Traffic.4.DetectMask = 1 1
+Traffic.4.UpdRate = 200
+Traffic.4.AutoDrv.UpdRate = 200
+Traffic.4.Lighting = 0
+Traffic.4.FreeMotion = 0
+Traffic.4.TrailerName =
+Traffic.4.Template.FName = 1_Vehicles/Renault_Espace_2015
+Traffic.4.AutoDriver.FName = Car_HDM_Defensive
+Traffic.4.Routing.Type = Route
+Traffic.4.Routing.ObjId = 1134
+Traffic.4.StartPos.Type = Route
+Traffic.4.StartPos.ObjId = 1134
+Traffic.4.StartPos = 12170 0.0
+Traffic.4.StartPos.Orientation.Type = Relative
+Traffic.4.StartPos.Orientation = 0.0 0.0 0.0
+Traffic.4.nMan = 1
+Traffic.4.Man.Start.Velocity = 0.0
+Traffic.4.Man.TreatAtEnd = FreezePos
+Traffic.4.Man.0.nLongSteps = 1
+Traffic.4.Man.0.nLatSteps = 1
+Traffic.4.Man.0.CombinedSteps = 1
+Traffic.4.Man.0.MaxExec = 1
+Traffic.4.Man.0.ConsiderDomain = own
+Traffic.4.Man.0.Transition.Interrupt = self
+Traffic.4.Man.0.Transition.EndCond = end
+Traffic.4.Man.0.Transition.SimultanStart = end
+Traffic.4.Man.0.LongStep.0.Limit = s 6000
+Traffic.4.Man.0.LongStep.0.Dyn = auto 70
+Traffic.4.Man.0.LatStep.0.Limit = s 6000
+Traffic.4.Man.0.LatStep.0.Dyn = auto
+Traffic.N = 5
+Traffic.SmartGen.nObjsMax = 500
+Traffic.SmartGen.CovRange.Range = 200 400
+Traffic.SmartGen.CovRange.Offset = 0
+Traffic.SmartGen.CovRange.nObjsMax = 25
+Traffic.SmartGen.CoordBehavior = 1
+Traffic.SmartGen.dtMovieLatency = 0.2
+Traffic.SmartGen.MultiThread = 1
+Traffic.SmartGen.BlockSim = 1
+Traffic.SmartGen.tSync = 200 50
+Traffic.SmartGen.Mode = 0 1 0
+Traffic.SmartGen.Source.CovRange = 1
+Traffic.SmartGen.Sink.ConsiderManObjs = 0
+Traffic.SmartGen.TrfSwarm.RoadPrio = 0
+Traffic.SmartGen.TrfSwarm.RoadPropagate = 0
+Traffic.SmartGen.TrfSwarm.Density = 2
+Traffic.SmartGen.TrfSwarm.CarRatio = 80
+Traffic.SmartGen.TrfSwarm.OLR.Mode = DistanceVelocity
+Traffic.SmartGen.TrfSwarm.ConsiderManObjs = 0
+Traffic.SmartGen.TrfSwarm.OLR.TimePreview = 4
+Traffic.SmartGen.TrfSwarm.OLR.DistPreview = 150
+Traffic.SmartGen.TrfSwarm.OLR.TimePreviewFac = 2
+Traffic.SmartGen.TrfSwarm.OLR.OffRoute = 1
+Traffic.SmartGen.TrfSwarm.OLR.OffRouteMaxPreview = 300
+Traffic.SmartGen.TrfSwarm.OLR.OffRouteMaxLinks = 3
+Traffic.SmartGen.TrfSwarm.OLR.Distance = 50 50
+Traffic.SmartGen.TrfSwarm.OLR.DistanceRelative = 1
+Traffic.SmartGen.TrfSwarm.OLR.DistanceFac = 2
+Traffic.SmartGen.TrfSwarm.OLR.DistanceOffset = 100
+Traffic.SmartGen.TrfSwarm.GenerateAtStart = 1
+Traffic.SmartGen.TrfSwarm.Template.N = 38
+Traffic.SmartGen.TrfSwarm.Template.0.FName = 1_Vehicles/AlfaRomeo_Stelvio_2019
+Traffic.SmartGen.TrfSwarm.Template.0.SDweight = 0.40
+Traffic.SmartGen.TrfSwarm.Template.1.FName = 1_Vehicles/Audi_A4AllRoad_2016
+Traffic.SmartGen.TrfSwarm.Template.1.SDweight = 0.6
+Traffic.SmartGen.TrfSwarm.Template.2.FName = 1_Vehicles/BMW_5_2017
+Traffic.SmartGen.TrfSwarm.Template.2.SDweight = 0.50
+Traffic.SmartGen.TrfSwarm.Template.3.FName = 1_Vehicles/Chrysler_Pacifica_2016
+Traffic.SmartGen.TrfSwarm.Template.3.SDweight = 0.5
+Traffic.SmartGen.TrfSwarm.Template.4.FName = 1_Vehicles/Ford_EscapeSE_2020
+Traffic.SmartGen.TrfSwarm.Template.4.SDweight = 0.15
+Traffic.SmartGen.TrfSwarm.Template.5.FName = 1_Vehicles/Honda_Fit_2015
+Traffic.SmartGen.TrfSwarm.Template.5.SDweight = 0.5
+Traffic.SmartGen.TrfSwarm.Template.6.FName = 1_Vehicles/Hyundai_Sonata_2015
+Traffic.SmartGen.TrfSwarm.Template.6.SDweight = 0.5
+Traffic.SmartGen.TrfSwarm.Template.7.FName = 1_Vehicles/LandRover_Defender110_2020
+Traffic.SmartGen.TrfSwarm.Template.7.SDweight = 0.25
+Traffic.SmartGen.TrfSwarm.Template.8.FName = 1_Vehicles/Mazda_CX3_2015
+Traffic.SmartGen.TrfSwarm.Template.8.SDweight = 0.6
+Traffic.SmartGen.TrfSwarm.Template.9.FName = 1_Vehicles/Lexus_RCF_2018
+Traffic.SmartGen.TrfSwarm.Template.9.SDweight = 0.15
+Traffic.SmartGen.TrfSwarm.Template.10.FName = 1_Vehicles/MB_CClass_2015
+Traffic.SmartGen.TrfSwarm.Template.10.SDweight = 0.5
+Traffic.SmartGen.TrfSwarm.Template.11.FName = 1_Vehicles/MB_EQC_2020
+Traffic.SmartGen.TrfSwarm.Template.11.SDweight = 0.12
+Traffic.SmartGen.TrfSwarm.Template.12.FName = 1_Vehicles/Mitsubishi_OutlanderSport_2016
+Traffic.SmartGen.TrfSwarm.Template.12.SDweight = 0.5
+Traffic.SmartGen.TrfSwarm.Template.13.FName = 1_Vehicles/Nissan_Qashqai_2019
+Traffic.SmartGen.TrfSwarm.Template.13.SDweight = 0.3
+Traffic.SmartGen.TrfSwarm.Template.14.FName = 1_Vehicles/Opel_Mokka-e_2021
+Traffic.SmartGen.TrfSwarm.Template.14.SDweight = 0.15
+Traffic.SmartGen.TrfSwarm.Template.15.FName = 1_Vehicles/Peugeot_207CC_2012
+Traffic.SmartGen.TrfSwarm.Template.15.SDweight = 0.6
+Traffic.SmartGen.TrfSwarm.Template.16.FName = 1_Vehicles/Porsche_911Turbo_2012
+Traffic.SmartGen.TrfSwarm.Template.16.SDweight = 0.1
+Traffic.SmartGen.TrfSwarm.Template.17.FName = 1_Vehicles/Renault_Kadjar_2016
+Traffic.SmartGen.TrfSwarm.Template.17.SDweight = 0.55
+Traffic.SmartGen.TrfSwarm.Template.18.FName = 1_Vehicles/Seat_LeonST_2015
+Traffic.SmartGen.TrfSwarm.Template.18.SDweight = 0.40
+Traffic.SmartGen.TrfSwarm.Template.19.FName = 1_Vehicles/Skoda_Scala_2019
+Traffic.SmartGen.TrfSwarm.Template.19.SDweight = 0.3
+Traffic.SmartGen.TrfSwarm.Template.20.FName = 1_Vehicles/Tesla_Model3_2019
+Traffic.SmartGen.TrfSwarm.Template.20.SDweight = 0.30
+Traffic.SmartGen.TrfSwarm.Template.21.FName = 1_Vehicles/Toyota_RAV4_2019
+Traffic.SmartGen.TrfSwarm.Template.21.SDweight = 0.20
+Traffic.SmartGen.TrfSwarm.Template.22.FName = 1_Vehicles/Volvo_XC90_2016
+Traffic.SmartGen.TrfSwarm.Template.22.SDweight = 0.45
+Traffic.SmartGen.TrfSwarm.Template.23.FName = 1_Vehicles/VW_ID3_2020
+Traffic.SmartGen.TrfSwarm.Template.23.SDweight = 0.30
+Traffic.SmartGen.TrfSwarm.Template.24.FName = 1_Vehicles/VW_PassatVariant_2014
+Traffic.SmartGen.TrfSwarm.Template.24.SDweight = 0.70
+Traffic.SmartGen.TrfSwarm.Template.25.FName = 1_Vehicles/Ducati_Panigale1199_2012_Traffic_Driver
+Traffic.SmartGen.TrfSwarm.Template.25.SDweight = 0.1
+Traffic.SmartGen.TrfSwarm.Template.26.FName = 1_Vehicles/Piaggio_VespaGTS_2016_Traffic_Driver
+Traffic.SmartGen.TrfSwarm.Template.26.SDweight = 0.1
+Traffic.SmartGen.TrfSwarm.Template.27.FName = 1_Vehicles/MB_Sprinter_2013
+Traffic.SmartGen.TrfSwarm.Template.27.SDweight = 0.90
+Traffic.SmartGen.TrfSwarm.Template.28.FName = 1_Vehicles/Ford_Transit_2014
+Traffic.SmartGen.TrfSwarm.Template.28.SDweight = 0.35
+Traffic.SmartGen.TrfSwarm.Template.29.FName = 1_Vehicles/Hymer_ML_I_580_2015
+Traffic.SmartGen.TrfSwarm.Template.29.SDweight = 0.15
+Traffic.SmartGen.TrfSwarm.Template.30.FName = 1_Vehicles/Coach
+Traffic.SmartGen.TrfSwarm.Template.30.SDweight = 0.4
+Traffic.SmartGen.TrfSwarm.Template.31.FName = 1_Vehicles/Iveco_EuroCargo_2015
+Traffic.SmartGen.TrfSwarm.Template.31.SDweight = 0.20
+Traffic.SmartGen.TrfSwarm.Template.32.FName = 1_Vehicles/Iveco_StralisXWAY_2017
+Traffic.SmartGen.TrfSwarm.Template.32.SDweight = 0.10
+Traffic.SmartGen.TrfSwarm.Template.33.FName = 1_Vehicles/Iveco_Trakker_2013
+Traffic.SmartGen.TrfSwarm.Template.33.SDweight = 0.1
+Traffic.SmartGen.TrfSwarm.Template.34.FName = 1_Vehicles/MAN_TGS_2012
+Traffic.SmartGen.TrfSwarm.Template.34.SDweight = 0.30
+Traffic.SmartGen.TrfSwarm.Template.35.FName = 1_Vehicles/MB_Antos_2012_6x2
+Traffic.SmartGen.TrfSwarm.Template.35.SDweight = 0.60
+Traffic.SmartGen.TrfSwarm.Template.36.FName = 1_Vehicles/Scania_R730_2010_02
+Traffic.SmartGen.TrfSwarm.Template.36.SDweight = 0.2
+Traffic.SmartGen.TrfSwarm.Template.37.FName = 1_Vehicles/Iveco_SWay_2019
+Traffic.SmartGen.TrfSwarm.Template.37.SDweight = 0.20
+Traffic.SmartGen.TrfSwarm.AutoDriver.N = 6
+Traffic.SmartGen.TrfSwarm.AutoDriver.0.FName = Car_HDM_Aggressive
+Traffic.SmartGen.TrfSwarm.AutoDriver.0.SDweight = 0.2
+Traffic.SmartGen.TrfSwarm.AutoDriver.1.FName = Car_HDM_Defensive
+Traffic.SmartGen.TrfSwarm.AutoDriver.1.SDweight = 0.2
+Traffic.SmartGen.TrfSwarm.AutoDriver.2.FName = Car_HDM_Normal
+Traffic.SmartGen.TrfSwarm.AutoDriver.2.SDweight = 0.8
+Traffic.SmartGen.TrfSwarm.AutoDriver.3.FName = Truck_HDM_Aggressive
+Traffic.SmartGen.TrfSwarm.AutoDriver.3.SDweight = 0.2
+Traffic.SmartGen.TrfSwarm.AutoDriver.4.FName = Truck_HDM_Defensive
+Traffic.SmartGen.TrfSwarm.AutoDriver.4.SDweight = 0.1
+Traffic.SmartGen.TrfSwarm.AutoDriver.5.FName = Truck_HDM_Normal
+Traffic.SmartGen.TrfSwarm.AutoDriver.5.SDweight = 0.8
+Traffic.SmartGen.nSources = 1
+Traffic.SmartGen.Source.0.Name = Source 0
+Traffic.SmartGen.Source.0.LinkObjId = 2526
+Traffic.SmartGen.Source.0.InRefDir = -1
+Traffic.SmartGen.Source.0.sLink = 10473.3
+Traffic.SmartGen.Source.0.Mode = Density
+Traffic.SmartGen.Source.0.CarRatio = 80
+Traffic.SmartGen.Source.0.Density = 5
+Traffic.SmartGen.Source.0.Rate = 100
+Traffic.SmartGen.Source.0.Speed = -1
+Traffic.SmartGen.Source.0.StartCond =
+Traffic.SmartGen.Source.0.EndCond =
+Traffic.SmartGen.Source.0.ValidForAllLanes = 1
+Traffic.SmartGen.Source.0.AddQuants = 1
+Traffic.SmartGen.Source.0.nLanes = 0
+Traffic.SmartGen.Source.Template.N = 38
+Traffic.SmartGen.Source.Template.0.FName = 1_Vehicles/AlfaRomeo_Stelvio_2019
+Traffic.SmartGen.Source.Template.0.SDweight = 0.40
+Traffic.SmartGen.Source.Template.1.FName = 1_Vehicles/Audi_A4AllRoad_2016
+Traffic.SmartGen.Source.Template.1.SDweight = 0.6
+Traffic.SmartGen.Source.Template.2.FName = 1_Vehicles/BMW_5_2017
+Traffic.SmartGen.Source.Template.2.SDweight = 0.50
+Traffic.SmartGen.Source.Template.3.FName = 1_Vehicles/Chrysler_Pacifica_2016
+Traffic.SmartGen.Source.Template.3.SDweight = 0.5
+Traffic.SmartGen.Source.Template.4.FName = 1_Vehicles/Ford_EscapeSE_2020
+Traffic.SmartGen.Source.Template.4.SDweight = 0.15
+Traffic.SmartGen.Source.Template.5.FName = 1_Vehicles/Honda_Fit_2015
+Traffic.SmartGen.Source.Template.5.SDweight = 0.5
+Traffic.SmartGen.Source.Template.6.FName = 1_Vehicles/Hyundai_Sonata_2015
+Traffic.SmartGen.Source.Template.6.SDweight = 0.5
+Traffic.SmartGen.Source.Template.7.FName = 1_Vehicles/LandRover_Defender110_2020
+Traffic.SmartGen.Source.Template.7.SDweight = 0.25
+Traffic.SmartGen.Source.Template.8.FName = 1_Vehicles/Mazda_CX3_2015
+Traffic.SmartGen.Source.Template.8.SDweight = 0.6
+Traffic.SmartGen.Source.Template.9.FName = 1_Vehicles/Lexus_RCF_2018
+Traffic.SmartGen.Source.Template.9.SDweight = 0.15
+Traffic.SmartGen.Source.Template.10.FName = 1_Vehicles/MB_CClass_2015
+Traffic.SmartGen.Source.Template.10.SDweight = 0.5
+Traffic.SmartGen.Source.Template.11.FName = 1_Vehicles/MB_EQC_2020
+Traffic.SmartGen.Source.Template.11.SDweight = 0.12
+Traffic.SmartGen.Source.Template.12.FName = 1_Vehicles/Mitsubishi_OutlanderSport_2016
+Traffic.SmartGen.Source.Template.12.SDweight = 0.5
+Traffic.SmartGen.Source.Template.13.FName = 1_Vehicles/Nissan_Qashqai_2019
+Traffic.SmartGen.Source.Template.13.SDweight = 0.3
+Traffic.SmartGen.Source.Template.14.FName = 1_Vehicles/Opel_Mokka-e_2021
+Traffic.SmartGen.Source.Template.14.SDweight = 0.15
+Traffic.SmartGen.Source.Template.15.FName = 1_Vehicles/Peugeot_207CC_2012
+Traffic.SmartGen.Source.Template.15.SDweight = 0.6
+Traffic.SmartGen.Source.Template.16.FName = 1_Vehicles/Porsche_911Turbo_2012
+Traffic.SmartGen.Source.Template.16.SDweight = 0.1
+Traffic.SmartGen.Source.Template.17.FName = 1_Vehicles/Renault_Kadjar_2016
+Traffic.SmartGen.Source.Template.17.SDweight = 0.55
+Traffic.SmartGen.Source.Template.18.FName = 1_Vehicles/Seat_LeonST_2015
+Traffic.SmartGen.Source.Template.18.SDweight = 0.40
+Traffic.SmartGen.Source.Template.19.FName = 1_Vehicles/Skoda_Scala_2019
+Traffic.SmartGen.Source.Template.19.SDweight = 0.3
+Traffic.SmartGen.Source.Template.20.FName = 1_Vehicles/Tesla_Model3_2019
+Traffic.SmartGen.Source.Template.20.SDweight = 0.30
+Traffic.SmartGen.Source.Template.21.FName = 1_Vehicles/Toyota_RAV4_2019
+Traffic.SmartGen.Source.Template.21.SDweight = 0.20
+Traffic.SmartGen.Source.Template.22.FName = 1_Vehicles/Volvo_XC90_2016
+Traffic.SmartGen.Source.Template.22.SDweight = 0.45
+Traffic.SmartGen.Source.Template.23.FName = 1_Vehicles/VW_ID3_2020
+Traffic.SmartGen.Source.Template.23.SDweight = 0.30
+Traffic.SmartGen.Source.Template.24.FName = 1_Vehicles/VW_PassatVariant_2014
+Traffic.SmartGen.Source.Template.24.SDweight = 0.70
+Traffic.SmartGen.Source.Template.25.FName = 1_Vehicles/Ducati_Panigale1199_2012_Traffic_Driver
+Traffic.SmartGen.Source.Template.25.SDweight = 0.1
+Traffic.SmartGen.Source.Template.26.FName = 1_Vehicles/Piaggio_VespaGTS_2016_Traffic_Driver
+Traffic.SmartGen.Source.Template.26.SDweight = 0.1
+Traffic.SmartGen.Source.Template.27.FName = 1_Vehicles/MB_Sprinter_2013
+Traffic.SmartGen.Source.Template.27.SDweight = 0.90
+Traffic.SmartGen.Source.Template.28.FName = 1_Vehicles/Ford_Transit_2014
+Traffic.SmartGen.Source.Template.28.SDweight = 0.35
+Traffic.SmartGen.Source.Template.29.FName = 1_Vehicles/Hymer_ML_I_580_2015
+Traffic.SmartGen.Source.Template.29.SDweight = 0.15
+Traffic.SmartGen.Source.Template.30.FName = 1_Vehicles/Coach
+Traffic.SmartGen.Source.Template.30.SDweight = 0.4
+Traffic.SmartGen.Source.Template.31.FName = 1_Vehicles/Iveco_EuroCargo_2015
+Traffic.SmartGen.Source.Template.31.SDweight = 0.20
+Traffic.SmartGen.Source.Template.32.FName = 1_Vehicles/Iveco_StralisXWAY_2017
+Traffic.SmartGen.Source.Template.32.SDweight = 0.10
+Traffic.SmartGen.Source.Template.33.FName = 1_Vehicles/Iveco_Trakker_2013
+Traffic.SmartGen.Source.Template.33.SDweight = 0.1
+Traffic.SmartGen.Source.Template.34.FName = 1_Vehicles/MAN_TGS_2012
+Traffic.SmartGen.Source.Template.34.SDweight = 0.30
+Traffic.SmartGen.Source.Template.35.FName = 1_Vehicles/MB_Antos_2012_6x2
+Traffic.SmartGen.Source.Template.35.SDweight = 0.60
+Traffic.SmartGen.Source.Template.36.FName = 1_Vehicles/Scania_R730_2010_02
+Traffic.SmartGen.Source.Template.36.SDweight = 0.2
+Traffic.SmartGen.Source.Template.37.FName = 1_Vehicles/Iveco_SWay_2019
+Traffic.SmartGen.Source.Template.37.SDweight = 0.20
+Traffic.SmartGen.Source.AutoDriver.N = 6
+Traffic.SmartGen.Source.AutoDriver.0.FName = Car_HDM_Aggressive
+Traffic.SmartGen.Source.AutoDriver.0.SDweight = 0.2
+Traffic.SmartGen.Source.AutoDriver.1.FName = Car_HDM_Defensive
+Traffic.SmartGen.Source.AutoDriver.1.SDweight = 0.2
+Traffic.SmartGen.Source.AutoDriver.2.FName = Car_HDM_Normal
+Traffic.SmartGen.Source.AutoDriver.2.SDweight = 0.8
+Traffic.SmartGen.Source.AutoDriver.3.FName = Truck_HDM_Aggressive
+Traffic.SmartGen.Source.AutoDriver.3.SDweight = 0.2
+Traffic.SmartGen.Source.AutoDriver.4.FName = Truck_HDM_Defensive
+Traffic.SmartGen.Source.AutoDriver.4.SDweight = 0.1
+Traffic.SmartGen.Source.AutoDriver.5.FName = Truck_HDM_Normal
+Traffic.SmartGen.Source.AutoDriver.5.SDweight = 0.8
+Traffic.SmartGen.nSinks = 0
+DrivMan.OW.Active = 0
+DrivMan.OW.Quantities =
+DrivMan.OW.StartGearNo = 1
+DrivMan.OW.StartVelocity =
+DrivMan.OW.GasMax = 0.5
+DrivMan.OW.RefCh = Time
+DrivMan.OW.ConsiderRoadSigns = 0
+DrivMan.OW.sRoute.Offset = 0
+ErrorClass.0.Action = abort
+ErrorClass.0.Save = 0
+ErrorClass.0.WarningLimit = 3 5
+ErrorClass.1.Action = abort
+ErrorClass.1.Save = 0
+ErrorClass.1.WarningLimit = 3 5
+ErrorClass.2.Action = abort
+ErrorClass.2.Save = 0
+ErrorClass.2.WarningLimit = 3 5
+ErrorClass.3.Action = abort
+ErrorClass.3.Save = 0
+ErrorClass.3.WarningLimit = 3 5
+ErrorClass.4.Action = abort
+ErrorClass.4.Save = 0
+ErrorClass.4.WarningLimit = 3 5
+ErrorClass.5.Action = abort
+ErrorClass.5.Save = 0
+ErrorClass.5.WarningLimit = 3 5
+ErrorClass.6.Action = abort
+ErrorClass.6.Save = 0
+ErrorClass.6.WarningLimit = 10 5
+ErrorClass.7.Action = abort
+ErrorClass.7.Save = 0
+ErrorClass.7.WarningLimit = 3 5
+ErrorClass.10.Action = abort
+ErrorClass.10.Save = 0
+ErrorClass.10.WarningLimit = 3 5
+ErrorClass.11.Action = abort
+ErrorClass.11.Save = 0
+ErrorClass.11.WarningLimit = 3 5

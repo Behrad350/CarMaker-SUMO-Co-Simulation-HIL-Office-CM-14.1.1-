@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenDRIVE>
+    <header revMajor="1" revMinor="8" date="2026-06-05T12:19:57">
+        <userData code="Created by IPGRoad" value="LibVersion 14.0.1" />
+    </header>
+    <road name="object 0" length="305.121007917245" id="0" junction="-1" rule="RHT">
+        <link>
+            <successor elementType="junction" elementId="6" />
+        </link>
+        <type s="0" type="rural" country="DE">
+            <speed max="100" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-733.758" y="262.698" hdg="-2.57910794225706" length="11.1066584827301">
+                <paramPoly3 aU="0" bU="1" cU="-1.51080672053717e-05" dU="-4.48399835312708e-05" aV="0" bV="-5.55111512312578e-17" cV="0.00847018313487431" dV="-1.34469046993506e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="11.1066584827301" x="-742.552548644137" y="255.94039026023" hdg="-2.39489145075958" length="11.5427075530227">
+                <paramPoly3 aU="0" bU="0.999990065449922" cU="-1.41752078327353e-05" dU="-4.15083980504977e-05" aV="0" bV="-8.88178419700125e-16" cV="0.0081628438892215" dV="-1.31641658817879e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="22.6493660357528" x="-750.250857724676" y="247.361710545812" hdg="-2.21066897104327" length="12.0345415910153">
+                <paramPoly3 aU="0" bU="0.999992724235754" cU="-1.51874544529747e-05" dU="-3.81049500077727e-05" aV="0" bV="-5.55111512312578e-17" cV="0.00784247837753073" dV="-1.28463498382034e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="34.6839076267681" x="-756.502412047454" y="237.098226276824" hdg="-2.02644755333354" length="12.5951783247265">
+                <paramPoly3 aU="0" bU="0.99999162257434" cU="-1.57437900801002e-05" dU="-3.47209497548113e-05" aV="0" bV="2.22044604925031e-16" cV="0.00750861453791641" dV="-1.25338675695542e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="47.2790859514946" x="-760.966072203848" y="225.339565949651" hdg="-1.84222613964663" length="13.242332382624">
+                <paramPoly3 aU="0" bU="0.99999147577028" cU="-1.65453301202592e-05" dU="-3.13318814056028e-05" aV="0" bV="-5.55111512312578e-17" cV="0.00715918579864047" dV="-1.22210626850237e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="60.5214183341186" x="-763.314021012406" y="212.32606912811" hdg="-1.65800483862231" length="14.0008485860028">
+                <paramPoly3 aU="0" bU="0.999990916300408" cU="-1.74334780975411e-05" dU="-2.79441203387085e-05" aV="0" bV="-9.71445146547012e-17" cV="0.00679179583547399" dV="-1.19077896946156e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="74.5222669201214" x="-763.232741433863" y="198.345247762033" hdg="-1.47378363669208" length="14.9068800709855">
+                <paramPoly3 aU="0" bU="0.999990239731363" cU="-1.84939320968438e-05" dU="-2.4556127639588e-05" aV="0" bV="-2.77555756156289e-17" cV="0.00640337627734277" dV="-1.15958058136524e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="89.4291469911069" x="-760.419138135155" y="183.727761056403" hdg="-1.28956298896435" length="16.0155162463923">
+                <paramPoly3 aU="0" bU="0.999989146046274" cU="-1.97840611849164e-05" dU="-2.11672947565751e-05" aV="0" bV="-5.55111512312578e-17" cV="0.00598977966771791" dV="-1.12798776748634e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="105.444663237499" x="-754.568284730882" y="168.8435541988" hdg="-1.10534149231455" length="17.4158367381738">
+                <paramPoly3 aU="0" bU="0.999988056693622" cU="-2.1317385353947e-05" dU="-1.77839085325043e-05" aV="0" bV="-3.88578058618805e-16" cV="0.00554556099461539" dV="-1.09762575854834e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="122.860499975673" x="-745.345426399733" y="154.099291020466" hdg="-0.921124729450111" length="19.2638309148883">
+                <paramPoly3 aU="0" bU="0.999983041733827" cU="-2.36316626002703e-05" dU="-1.43760000653817e-05" aV="0" bV="1.66533453693773e-16" cV="0.00506205752963182" dV="-1.06365776279198e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="142.124330890561" x="-732.324652184376" y="139.939274087243" hdg="-0.736894859809804" length="21.8654257385576">
+                <paramPoly3 aU="0" bU="0.999990187988704" cU="-2.52744925674652e-05" dU="-1.10654755064869e-05" aV="0" bV="-3.33066907387547e-16" cV="0.0045286188525534" dV="-1.03950538608013e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="163.989756629119" x="-714.844874688181" y="126.854811542013" hdg="-0.552710969388631" length="25.9364243031053">
+                <paramPoly3 aU="0" bU="0.999926519547409" cU="-3.39151064620265e-05" dU="-7.415849494945e-06" aV="0" bV="1.11022302462516e-16" cV="0.00391924328511189" dV="-9.91606867086125e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="189.926180932224" x="-691.608124660366" y="115.415846225921" hdg="-0.368404230368213" length="33.8009729828342">
+                <paramPoly3 aU="0" bU="1.00014019976264" cU="-2.37298763502616e-05" dU="-4.79789302103381e-06" aV="0" bV="0" cV="0.0032063340049363" dV="-9.91388338608706e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="223.727153915058" x="-659.08744978506" y="106.378277762787" hdg="-0.184401942683847" length="81.3938540021868">
+                <paramPoly3 aU="0" bU="0.998954211745731" cU="-9.89223969933997e-05" dU="9.82549961249816e-09" aV="0" bV="-3.33066907387547e-16" cV="0.00225724053184334" dV="-9.2625808414658e-06" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="1e-07" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="border">
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="295.944">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="1.00000022484892e-07" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1.00000022484892e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1.00000022484892e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1.00000022484892e-07" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="none" subtype="none" dynamic="no" name="object 103" id="7" s="1e-07" t="-11.5" zOffset="0" validLength="295.9439998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="295.9439998" width="0.155" height="0.75">
+                <repeat s="1e-07" length="295.9439998" distance="0" tStart="-11.5" tEnd="-11.5" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="295.9439998" lengthEnd="295.9439998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 104" id="8" s="1e-07" t="0.75" zOffset="0" validLength="295.9439998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="295.9439998" width="0.155" height="0.75">
+                <repeat s="1e-07" length="295.9439998" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="295.9439998" lengthEnd="295.9439998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 466" id="9" s="295.9440001" t="0.75" zOffset="0" validLength="9.17700771724515" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="9.17700771724515" width="0.155" height="0.75">
+                <repeat s="295.9440001" length="9.17700771724515" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="9.17700771724515" lengthEnd="9.17700771724515" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="object 83" length="775.076403336014" id="1" junction="-1" rule="RHT">
+        <link>
+            <predecessor elementType="junction" elementId="5" />
+        </link>
+        <type s="0" type="rural" country="DE">
+            <speed max="100" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="422.011899757874" y="101.379416878395" hdg="-1.22460635382238e-16" length="0.0466349657149294">
+                <line />
+            </geometry>
+            <geometry s="0.0466349657149294" x="422.058534723589" y="101.379416878395" hdg="-7.21644966006352e-16" length="199.304049497964">
+                <paramPoly3 aU="0" bU="1" cU="3.87098668507394e-05" dU="-2.79560963130525e-07" aV="0" bV="-7.83878170707021e-17" cV="-8.01907073428143e-06" dV="-1.50640806217307e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="199.350684463679" x="620.687000001669" y="89.1349870049591" hdg="-0.183933948204284" length="83.0049397479303">
+                <paramPoly3 aU="0" bU="0.998966597112764" cU="3.99269335465334e-05" dU="-1.07672654099968e-06" aV="0" bV="-5.82867087928207e-16" cV="-0.000916882337830548" dV="-1.46711768116344e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="282.355624211609" x="700.563676501622" y="66.9960297313776" hdg="-0.36747356295487" length="63.6922133716798">
+                <paramPoly3 aU="0" bU="1.00013798880642" cU="9.65728178666366e-06" dU="-1.50292224618704e-06" aV="0" bV="0" cV="-0.00130232793779435" dV="-1.38836163091538e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="346.047837583289" x="757.659137951938" y="38.9711048409372" hdg="-0.551313444520521" length="53.6951151297947">
+                <paramPoly3 aU="0" bU="0.999927256201802" cU="1.37292839716748e-05" dU="-2.10881319264081e-06" aV="0" bV="-1.11022302462516e-16" cV="-0.00159192719973201" dV="-1.35590320547241e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="399.742952713083" x="800.63681712286" y="6.90900910974766" hdg="-0.735032298098159" length="47.3063918441721">
+                <paramPoly3 aU="0" bU="0.999990204348625" cU="1.02424602919239e-05" dU="-2.65323613767399e-06" aV="0" bV="-5.55111512312578e-16" cV="-0.00183942770376971" dV="-1.29514563973735e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="447.049344557256" x="832.684938638847" y="-27.7972044608514" hdg="-0.91879646591645" length="42.7682734526392">
+                <paramPoly3 aU="0" bU="0.999983172345047" cU="9.57370729471403e-06" dU="-3.21620788219879e-06" aV="0" bV="0" cV="-0.00205610325197598" dV="-1.24737591576385e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="489.817618009895" x="855.426304170203" y="-63.9470823448388" hdg="-1.102547725314" length="39.3295029540192">
+                <paramPoly3 aU="0" bU="0.999988148188137" cU="8.63671035614599e-06" dU="-3.77416693288679e-06" aV="0" bV="-5.55111512312578e-16" cV="-0.00225248975070802" dV="-1.19449683297245e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="529.147120963914" x="869.904867827797" y="-100.455067022957" hdg="-1.28630365527381" length="36.6070200329035">
+                <paramPoly3 aU="0" bU="0.999989234476465" cU="8.01545421389707e-06" dU="-4.33337080922434e-06" aV="0" bV="-4.9960036108132e-16" cV="-0.00243292190334571" dV="-1.14344782544991e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="565.754140996817" x="876.939536705868" y="-136.327347698835" hdg="-1.47005874578766" length="34.3820729644528">
+                <paramPoly3 aU="0" bU="0.999990318017317" cU="7.49253891282583e-06" dU="-4.89230922384413e-06" aV="0" bV="1.38777878078145e-17" cV="-0.00260091524442584" dV="-1.09179434918917e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="600.13621396127" x="877.274934237145" y="-170.659426731878" hdg="-1.65381439775503" length="32.519379162527">
+                <paramPoly3 aU="0" bU="0.99999100999966" cU="7.06388081279195e-06" dU="-5.45130523672776e-06" aV="0" bV="-4.44089209850063e-16" cV="-0.00275868309975465" dV="-1.0403255150408e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="632.655593123797" x="871.65034746526" y="-202.64225902042" hdg="-1.8375701161817" length="30.9301575759341">
+                <paramPoly3 aU="0" bU="0.999991492108506" cU="6.70007371506443e-06" dU="-6.01025094575974e-06" aV="0" bV="2.77555756156289e-16" cV="-0.00290790751171718" dV="-9.88825488432256e-07" pRange="arcLength" />
+            </geometry>
+            <geometry s="663.585750699731" x="860.830040545975" y="-231.57159665798" hdg="-2.02132599977176" length="29.5533968601954">
+                <paramPoly3 aU="0" bU="0.999991919862512" cU="6.39098108737887e-06" dU="-6.56940468262985e-06" aV="0" bV="-9.43689570931383e-16" cV="-0.00304983937012975" dV="-9.37277012217542e-07" pRange="arcLength" />
+            </geometry>
+            <geometry s="693.139147559927" x="845.613027656527" y="-256.857775301202" hdg="-2.20508193327658" length="28.3455952280756">
+                <paramPoly3 aU="0" bU="0.99999198516763" cU="6.10621947128129e-06" dU="-7.12769058664468e-06" aV="0" bV="-9.43689570931383e-16" cV="-0.00318545199183636" dV="-8.85829472622871e-07" pRange="arcLength" />
+            </geometry>
+            <geometry s="721.484742788002" x="826.830936250034" y="-278.034352641875" hdg="-2.38883787943424" length="27.2747850435888">
+                <paramPoly3 aU="0" bU="0.999992990808408" cU="5.91325224551199e-06" dU="-7.68944227904325e-06" aV="0" bV="-1.66533453693773e-16" cV="-0.00331551857107029" dV="-8.3460144630586e-07" pRange="arcLength" />
+            </geometry>
+            <geometry s="748.759527831591" x="805.338587134293" y="-294.764620421727" hdg="-2.57259475954023" length="26.3168755044225">
+                <paramPoly3 aU="0" bU="0.999990386685277" cU="5.52768601950375e-06" dU="-8.23790018166161e-06" aV="0" bV="4.9960036108132e-16" cV="-0.0034407267827769" dV="-7.80036532129968e-07" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0" b="0" c="0" d="0" />
+            <elevation s="622.124822976247" a="0" b="0" c="0" d="0" />
+        </elevationProfile>
+        <lateralProfile>
+            <shape s="0" t="-10.5" a="0" b="0" c="0" d="0" />
+        </lateralProfile>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="1e-07" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="8.624">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="9.99999993922529e-08" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999993922529e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999993922529e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999993922529e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="border">
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="none" subtype="none" dynamic="no" name="object 606" id="10" s="1e-07" t="0.75" zOffset="0" validLength="8.6239998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="8.6239998" width="0.155" height="0.75">
+                <repeat s="1e-07" length="8.6239998" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="8.6239998" lengthEnd="8.6239998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 226" id="11" s="8.6240001" t="0.75" zOffset="0" validLength="766.452403136014" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="766.452403136014" width="0.155" height="0.75">
+                <repeat s="8.6240001" length="766.452403136014" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="766.452403136014" lengthEnd="766.452403136014" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 643" id="12" s="8.706" t="-11.5" zOffset="0" validLength="766.370403236014" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="766.370403236014" width="0.155" height="0.75">
+                <repeat s="8.706" length="766.370403236014" distance="0" tStart="-11.5" tEnd="-11.5" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="766.370403236014" lengthEnd="766.370403236014" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="object 54" length="147.627002343617" id="2" junction="-1" rule="RHT">
+        <link>
+            <predecessor elementType="junction" elementId="5" />
+        </link>
+        <type s="0" type="rural" country="DE">
+            <speed max="100" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="422.011899757874" y="90.879416878395" hdg="-1.22460635382238e-16" length="38.0865444209121">
+                <paramPoly3 aU="0" bU="1" cU="0.000187558963103816" dU="-7.06355411627222e-06" aV="0" bV="-3.67381906146713e-16" cV="-1.89863400659329e-05" dV="-3.99401593429172e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="38.0865444209121" x="459.98026879473" y="88.6452710460961" hdg="-0.17633681111672" length="15.7930366827837">
+                <paramPoly3 aU="0" bU="0.999040299905235" cU="0.000193975030577322" dU="-2.73762536937248e-05" aV="0" bV="-3.33066907387547e-16" cV="-0.00462015145779622" dV="-3.89837056968552e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="53.8795811036958" x="475.225855344168" y="84.6022085159381" hdg="-0.35232339163599" length="12.1184253891277">
+                <paramPoly3 aU="0" bU="1.00013037903222" cU="4.6218853726316e-05" dU="-3.81539589461607e-05" aV="0" bV="-7.21644966006352e-16" cV="-0.00656040285644125" dV="-3.70600276987476e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="65.9980064928235" x="486.188789854637" y="79.4747746394683" hdg="-0.528577345508162" length="10.2163059016625">
+                <paramPoly3 aU="0" bU="0.999932653771963" cU="6.64583897744368e-05" dU="-5.35651028780162e-05" aV="0" bV="1.11022302462516e-16" cV="-0.0080203328766304" dV="-3.62755068327292e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="76.214312394486" x="494.525239672393" y="73.5920264072279" hdg="-0.704723146434189" length="9.00074652852949">
+                <paramPoly3 aU="0" bU="0.999991809853688" cU="4.94030844457594e-05" dU="-6.73826821886667e-05" aV="0" bV="-4.9960036108132e-16" cV="-0.00926687257145779" dV="-3.47929136152035e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="85.2150589230155" x="500.844706673567" y="67.1991867235791" hdg="-0.880909519755376" length="8.13729705942141">
+                <paramPoly3 aU="0" bU="0.999984908545515" cU="4.62544017373438e-05" dU="-8.16855440313973e-05" aV="0" bV="-4.9960036108132e-16" cV="-0.010358610520675" dV="-3.36316520565363e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="93.3523559824369" x="505.454521567005" y="60.5063479763791" hdg="-1.05708426649001" length="7.48301705201243">
+                <paramPoly3 aU="0" bU="0.999989620215346" cU="4.17004201384704e-05" dU="-9.58552630946719e-05" aV="0" bV="-4.9960036108132e-16" cV="-0.0113479655882506" dV="-3.23434847757927e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="100.835373034449" x="508.547928639896" y="53.7032843674139" hdg="-1.23326322234197" length="6.9650225323459">
+                <paramPoly3 aU="0" bU="0.999990572538272" cU="3.8710312968252e-05" dU="-0.000110058855648846" aV="0" bV="1.11022302462516e-16" cV="-0.0122569924422402" dV="-3.11009965237116e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="107.800395566795" x="510.271783330728" y="46.9642559100694" hdg="-1.40944140505933" length="6.54169224177909">
+                <paramPoly3 aU="0" bU="0.999991580961161" cU="3.61817685730001e-05" dU="-0.000124254883945257" aV="0" bV="-2.22044604925031e-16" cV="-0.0131033385432715" dV="-2.98433170638372e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="114.342087808574" x="510.755691904869" y="40.44896713581" hdg="-1.58562009369879" length="6.18728640351577">
+                <paramPoly3 aU="0" bU="0.99999221215732" cU="3.41127357025293e-05" dU="-0.000138452655103655" aV="0" bV="-2.51534904016637e-16" cV="-0.0138981719024919" dV="-2.85903387216668e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="120.52937421209" x="510.125674057242" y="34.3018810823556" hdg="-1.76179883807073" length="5.88491296129767">
+                <paramPoly3 aU="0" bU="0.999992656435351" cU="3.23557093560214e-05" dU="-0.000152649102686247" aV="0" bV="1.66533453693773e-16" cV="-0.0146499630590311" dV="-2.73364536412308e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="126.414287173388" x="508.510560766865" y="28.6508529168253" hdg="-1.93797772584034" length="5.62296351621229">
+                <paramPoly3 aU="0" bU="0.999993046116881" cU="3.086228961173e-05" dU="-0.000166850592174963" aV="0" bV="-7.7715611723761e-16" cV="-0.0153650129814003" dV="-2.60816836160149e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="132.0372506896" x="506.044555305874" y="23.605574384196" hdg="-2.11415666707088" length="5.39316115475472">
+                <paramPoly3 aU="0" bU="0.999993118024033" cU="2.94909087752669e-05" dU="-0.000181031354955323" aV="0" bV="1.11022302462516e-16" cV="-0.0160482303222043" dV="-2.48284991002506e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="137.430411844355" x="502.867578431719" y="19.2561092753607" hdg="-2.29033559358337" length="5.18942352566177">
+                <paramPoly3 aU="0" bU="0.999993993906983" cU="2.85436257723339e-05" dU="-0.000195294342809284" aV="0" bV="8.32667268468867e-16" cV="-0.0167035000621012" dV="-2.35831131824551e-05" pRange="arcLength" />
+            </geometry>
+            <geometry s="142.619835370017" x="499.124252811822" y="15.6716925982834" hdg="-2.46651539846779" length="5.00716697360002">
+                <paramPoly3 aU="0" bU="0.999991778356392" cU="2.67397362663391e-05" dU="-0.000209243145125692" aV="0" bV="0" cV="-0.01733428884547" dV="-2.22508823820184e-05" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneOffset s="0" a="0" b="0" c="-0.0321376194790316" d="0.000651059914084348" />
+            <laneOffset s="32.908" a="-11.601" b="0" c="-0.000918661630910157" d="5.33861936350353e-06" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="1e-07" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="8.664">
+                <left>
+                    <lane id="1" type="border">
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="9.99999993922529e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999993922529e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="none" subtype="none" dynamic="no" name="object 153" id="13" s="1e-07" t="-4.5" zOffset="0" validLength="8.6639998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="8.6639998" width="0.155" height="0.75">
+                <repeat s="1e-07" length="8.6639998" distance="0" tStart="-4.5" tEnd="-6.48898222642275" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="8.6639998" lengthEnd="8.6639998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 154" id="14" s="8.6640001" t="-6.48898230847584" zOffset="0" validLength="138.963002143617" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="138.963002143617" width="0.155" height="0.75">
+                <repeat s="8.6640001" length="138.963002143617" distance="0" tStart="-6.48898230847584" tEnd="-20.131" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="138.963002143617" lengthEnd="138.963002143617" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 155" id="15" s="8.682" t="-0.996371971249859" zOffset="0" validLength="138.945002243617" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="138.945002243617" width="0.155" height="0.75">
+                <repeat s="8.682" length="138.945002243617" distance="0" tStart="-0.996371971249859" tEnd="-14.631" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="138.945002243617" lengthEnd="138.945002243617" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="object 250" length="999.982002739352" id="3" junction="-1" rule="RHT">
+        <link>
+            <predecessor elementType="junction" elementId="6" />
+            <successor elementType="junction" elementId="5" />
+        </link>
+        <type s="0" type="rural" country="DE">
+            <speed max="100" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-577.970102981447" y="101.379416882713" hdg="-3.09065574267248e-07" length="0.0137939849732141">
+                <paramPoly3 aU="0" bU="1" cU="-1.79031370113127e-12" dU="2.596186770049e-08" aV="0" bV="-4.89842541528951e-16" cV="5.79266619458764e-06" dV="-9.21999370607298e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="0.0137939849732141" x="-577.956308996474" y="101.379416879528" hdg="-1.54532760398061e-07" length="0.0148437200936886">
+                <paramPoly3 aU="0" bU="0.999999999999546" cU="5.21095798436757e-10" dU="-2.27349385096593e-08" aV="0" bV="1.66917662544692e-16" cV="5.4106858285116e-06" dV="-9.22327721559964e-06" pRange="arcLength" />
+            </geometry>
+            <geometry s="0.0286377050669028" x="-577.94146527638" y="101.379416878396" hdg="-9.24265845489333e-15" length="999.953365034285">
+                <line />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="1e-07" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <successor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <successor id="-5" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="124.6">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="9.99999940631824e-08" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999940631824e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999940631824e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999940631824e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <predecessor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="-0.0167543970510883" d="0.000446177120478503" />
+                        <roadMark sOffset="9.99999940631824e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                            <successor id="-4" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="149.634">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="9.99999940631824e-08" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999940631824e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999940631824e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999940631824e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                            <successor id="-5" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="959.912">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="9.9999965641473e-08" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.9999965641473e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.9999965641473e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.9999965641473e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <successor id="-4" />
+                        </link>
+                        <width sOffset="0" a="0" b="0" c="0.419161258322098" d="-0.055832335440839" />
+                        <roadMark sOffset="9.9999965641473e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <predecessor id="-4" />
+                            <successor id="-5" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="964.917">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="9.9999965641473e-08" type="solid solid" color="white" width="0.375">
+                            <type name="solid solid" width="0.375">
+                                <line length="0" space="0" tOffset="0.1125" sOffset="0" width="0.15" />
+                                <line length="0" space="0" tOffset="-0.1125" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.9999965641473e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.9999965641473e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.9999965641473e-08" type="broken" color="white" width="0.15">
+                            <type name="broken" width="0.15">
+                                <line length="2" space="4" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <predecessor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.9999965641473e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="none" subtype="none" dynamic="no" name="object 343" id="16" s="1e-07" t="0.75" zOffset="0" validLength="124.5999998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="124.5999998" width="0.155" height="0.75">
+                <repeat s="1e-07" length="124.5999998" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="124.5999998" lengthEnd="124.5999998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 342" id="17" s="1e-07" t="-15" zOffset="0" validLength="124.5999998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="124.5999998" width="0.155" height="0.75">
+                <repeat s="1e-07" length="124.5999998" distance="0" tStart="-15" tEnd="-15" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="124.5999998" lengthEnd="124.5999998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 346" id="18" s="124.6000001" t="0.75" zOffset="0" validLength="25.0339998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="25.0339998" width="0.155" height="0.75">
+                <repeat s="124.6000001" length="25.0339998" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="25.0339998" lengthEnd="25.0339998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 437" id="19" s="124.6000001" t="-15" zOffset="0" validLength="25.0339998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="25.0339998" width="0.155" height="0.75">
+                <repeat s="124.6000001" length="25.0339998" distance="0" tStart="-15" tEnd="-11.5" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="25.0339998" lengthEnd="25.0339998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 16" id="20" s="149.6340001" t="0.75" zOffset="0" validLength="810.2779998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="810.2779998" width="0.155" height="0.75">
+                <repeat s="149.6340001" length="810.2779998" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="810.2779998" lengthEnd="810.2779998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 140" id="21" s="149.6340001" t="-11.5" zOffset="0" validLength="810.2779998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="810.2779998" width="0.155" height="0.75">
+                <repeat s="149.6340001" length="810.2779998" distance="0" tStart="-11.5" tEnd="-11.5" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="810.2779998" lengthEnd="810.2779998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 516" id="22" s="959.9120001" t="0.75" zOffset="0" validLength="5.00499980000006" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="5.00499980000006" width="0.155" height="0.75">
+                <repeat s="959.9120001" length="5.00499980000006" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="5.00499980000006" lengthEnd="5.00499980000006" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 557" id="23" s="959.9120001" t="-11.5" zOffset="0" validLength="5.00499980000006" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="5.00499980000006" width="0.155" height="0.75">
+                <repeat s="959.9120001" length="5.00499980000006" distance="0" tStart="-11.5" tEnd="-15" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="5.00499980000006" lengthEnd="5.00499980000006" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 706" id="24" s="964.9170001" t="0.75" zOffset="0" validLength="35.0650025393519" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="35.0650025393519" width="0.155" height="0.75">
+                <repeat s="964.9170001" length="35.0650025393519" distance="0" tStart="0.75" tEnd="0.75" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="35.0650025393519" lengthEnd="35.0650025393519" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 859" id="25" s="964.9170001" t="-15" zOffset="0" validLength="35.0650025393519" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="35.0650025393519" width="0.155" height="0.75">
+                <repeat s="964.9170001" length="35.0650025393519" distance="0" tStart="-15" tEnd="-15" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="35.0650025393519" lengthEnd="35.0650025393519" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="object 158" length="136.511288171376" id="4" junction="-1" rule="RHT">
+        <link>
+            <successor elementType="junction" elementId="6" />
+        </link>
+        <type s="0" type="motorway" country="DE">
+            <speed max="130" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-658.747" y="-0.848" hdg="0.968936987537172" length="136.511288171376">
+                <paramPoly3 aU="0" bU="0.954420920006924" cU="0.00279717757343422" dU="-2.06049050522194e-05" aV="0" bV="-4.9960036108132e-16" cV="0.00463690126463761" dV="-3.73888921339379e-05" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneOffset s="0" a="0" b="0" c="-0.00352032229221473" d="2.27843727247792e-05" />
+            <laneOffset s="103.004" a="-12.45" b="0" c="0.00521047485798542" d="-0.000103668488107942" />
+            <laneSection s="0">
+                <left>
+                    <lane id="1" type="border">
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="130" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="1e-07" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="1e-07" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="130" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="130" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="123.624">
+                <center>
+                    <lane id="0">
+                        <roadMark sOffset="9.99999940631824e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999940631824e-08" type="solid" color="white" width="0.15">
+                            <type name="solid" width="0.15">
+                                <line length="0" space="0" tOffset="0" sOffset="0" width="0.15" />
+                            </type>
+                        </roadMark>
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="130" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="130" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="none" subtype="none" dynamic="no" name="object 663" id="26" s="1e-07" t="-4.5" zOffset="0" validLength="123.6239998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="123.6239998" width="0.155" height="0.75">
+                <repeat s="1e-07" length="123.6239998" distance="0" tStart="-4.5" tEnd="-15.6434803591859" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="123.6239998" lengthEnd="123.6239998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 665" id="27" s="1e-07" t="1" zOffset="0" validLength="123.6239998" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="123.6239998" width="0.155" height="0.75">
+                <repeat s="1e-07" length="123.6239998" distance="0" tStart="1" tEnd="-10.1434803591859" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="123.6239998" lengthEnd="123.6239998" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+            <object type="none" subtype="none" dynamic="no" name="object 337" id="28" s="123.6240001" t="-15.6434803426569" zOffset="0" validLength="12.8872879713755" orientation="none" perpToRoad="false" hdg="0" pitch="0" roll="0" length="12.8872879713755" width="0.155" height="0.75">
+                <repeat s="123.6240001" length="12.8872879713755" distance="0" tStart="-15.6434803426569" tEnd="-15" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" lengthStart="12.8872879713755" lengthEnd="12.8872879713755" widthStart="0.155" widthEnd="0.155" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="3" detectability="1" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 1 1 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <junction name="object 48" id="5" type="direct">
+        <connection id="0" incomingRoad="3" linkedRoad="2" contactPoint="start">
+            <laneLink from="-4" to="-1" />
+            <laneLink from="-5" to="-2" />
+        </connection>
+        <connection id="1" incomingRoad="3" linkedRoad="1" contactPoint="start">
+            <laneLink from="1" to="1" />
+            <laneLink from="-1" to="-1" />
+            <laneLink from="-2" to="-2" />
+            <laneLink from="-3" to="-3" />
+        </connection>
+    </junction>
+    <junction name="object 221" id="6" type="direct">
+        <connection id="0" incomingRoad="0" linkedRoad="3" contactPoint="start">
+            <laneLink from="1" to="1" />
+            <laneLink from="-1" to="-1" />
+            <laneLink from="-2" to="-2" />
+            <laneLink from="-3" to="-3" />
+        </connection>
+        <connection id="1" incomingRoad="4" linkedRoad="3" contactPoint="start">
+            <laneLink from="-1" to="-4" />
+            <laneLink from="-2" to="-5" />
+        </connection>
+    </junction>
+</OpenDRIVE>

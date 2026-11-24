@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+  <vType id="ego_car" accel="1.5" decel="4.5" sigma="0.5" maxSpeed="13.890" vClass="passenger" guiShape="passenger" color="0.603,0.091,0.947" length="4.280" width="1.800" height="1.290" />
+  <vType id="car1" accel="1.5" decel="4.5" sigma="0.5" maxSpeed="69.444" vClass="passenger" guiShape="passenger" color="0.886,0.124,0.840" length="4.930" width="1.850" height="1.270" speedTable="0.0 2778" maxAccelProfile="6.500 6.500" />
+  <vType id="car2" accel="1.5" decel="4.5" sigma="0.5" maxSpeed="69.444" vClass="passenger" guiShape="passenger" color="0.886,0.200,0.124" length="4.922" width="2.004" height="1.495" speedTable="0.0 2778" maxAccelProfile="7.200 7.200" />
+  <vTypeDistribution id="traffic_mix" vTypes="car1 car2" probabilities="0.82 0.18" />
+  <route id="r_merge_east" edges="-4#0 -3#0 -3#2 -3#3 -3#6 -1#1" />
+  <route id="r_merge_east_exit_south" edges="-4#0 -3#0 -3#2 -3#3 -3#6 -2#1" />
+  <route id="r_0_through_east" edges="-0#0 -3#0  -3#2 -3#3 -3#6 -1#1" />
+  <route id="r_0_exit_south" edges="-0#0 -3#0 -3#2 -3#3 -3#6 -2#1" />
+  <routeDistribution id="traffic_ramp_dist">
+    <route refId="r_merge_east" probability="0.90" />
+    <route refId="r_merge_east_exit_south" probability="0.10" />
+  </routeDistribution>
+  <routeDistribution id="traffic_main_dist">
+    <route refId="r_0_through_east" probability="0.85" />
+    <route refId="r_0_exit_south" probability="0.15" />
+  </routeDistribution>
+  <flow id="f_main_L0" type="traffic_mix" route="traffic_main_dist" begin="0" end="3600" probability="0.33" departLane="0" departSpeed="18" />
+  <flow id="f_main_L1" type="traffic_mix" route="traffic_main_dist" begin="0" end="3600" probability="0.33" departLane="1" departSpeed="18" />
+  <flow id="f_main_L2" type="traffic_mix" route="traffic_main_dist" begin="0" end="3600" probability="0.33" departLane="2" departSpeed="18" />
+  <flow id="f_ramp" type="traffic_mix" route="traffic_ramp_dist" begin="0" end="3600" probability="0.1" departLane="0" departSpeed="10" />
+  <vehicle id="ego" type="ego_car" depart="0" route="r_0_exit_south" departLane="1" departSpeed="13.89" />
+</routes>

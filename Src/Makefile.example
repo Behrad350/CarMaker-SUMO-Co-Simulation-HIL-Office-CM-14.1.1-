@@ -1,0 +1,69 @@
+#******************************************************************************
+#* Example Makefile — CMSumoCosim consumer (CarMaker 14.1.1)
+#* Copy into src/Makefile or merge the marked sections into your stock file.
+#*
+#*   cmmake                         -> office skeleton (prefer MSVC for TraCI)
+#*   cmmake CM_TARGET=xeno          -> HIL / RT UDP bridge library
+#******************************************************************************
+
+CM_ROOT ?= C:/IPG/carmaker/win64-14.1.1
+CM_TARGET ?= win64
+
+# REQUIRED: do not hardcode MakeDefs.win64
+include $(CM_ROOT)/include/MakeDefs.$(CM_TARGET)
+
+# REQUIRED: C++ link (User.cpp + static lib)
+APP_LINKER = $(CXX)
+APP_LD_OS  = $(LDXX_LIBS_OS)
+
+APP_VER =		"MyProject CoSim 14.1.1"
+APP_NAME =		CarMaker.$(ARCH)$(EXE_EXT)
+
+LD_LIBS =		$(CAR_LIB) \
+			$(CARMAKER_LIB) $(DRIVER_LIB) $(ROAD_LIB) $(TIRE_LIB) $(MIO_LIB)
+
+# REQUIRED: arch-specific Cosim kit (same idea as VILaddon)
+LD_LIBS +=		../lib/CMSumoCosim_$(ARCH).a
+
+# No SUMOsim.o — it is inside the .a
+OBJS =			CM_Main.o CM_Vehicle.o User.o IO.o
+
+# REQUIRED: public header path
+INC_CFLAGS +=		-I../include -I../lib/$(ARCH) -I../lib
+
+SUMO_ROOT ?= C:/Program Files (x86)/Eclipse/Sumo
+ifneq ($(CM_TARGET),xeno)
+INC_CFLAGS +=		-I"$(SUMO_ROOT)/include"
+endif
+
+# @@PLUGIN-BEGIN-LIBS@@
+# @@PLUGIN-END@@
+
+default:	$(APP_NAME)
+$(APP_NAME):	$(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK) app_tmp.o
+	$(QECHO) " LD     $@ ($(CM_TARGET))"
+	$Q $(APP_LINKER) $(CFLAGS) $(LDFLAGS) -o $@ \
+		$(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS) $(APP_LD_OS) \
+		app_tmp.o
+	$(SET_EXE_PERMISSIONS) $@
+
+install: $(APP_NAME)
+	$(INSTALL_APP) $(APP_NAME) $(ARCH)
+
+clean:
+	-rm -f 	*~ *% *.o core
+
+app_tmp.c: Makefile $(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK)
+	$(QECHO) " MK     $@"
+	$Q $(CREATE_INFO_CMD)
+
+depend .depend: Makefile
+	$(QECHO) " MK     $@"
+	@echo -n "" >.depend
+ifneq ($(wildcard *.c),)
+	$Q-$(CC)  $(CFLAGS)   $(DEPCFLAGS)   *.c   >>.depend 2>/dev/null
+endif
+ifneq ($(wildcard *.cpp),)
+	$Q-$(CXX) $(CXXFLAGS) $(DEPCXXFLAGS) *.cpp >>.depend 2>/dev/null
+endif
+include .depend

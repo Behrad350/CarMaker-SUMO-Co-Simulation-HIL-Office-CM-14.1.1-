@@ -1,0 +1,153 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-Car-VIL 1
+FileCreator = CarMaker HIL 14.1.1
+Description:
+	Typical, unvalidated data for passenger car
+	with Front Wheel Drive
+	Tire: RT 195/65 R15
+Movie.Skin.FName = 3D/Vehicles/VW_Beetle_2012.mobj
+Picture.PicFName = VW_Beetle_2012.png
+Vehicle.OuterSkin = 0.0 0.88 0.2 4.28 -0.88 1.46
+
+
+## Assembly ##############################################################
+
+RefPointInputSystem = 0.0 0.0 0.0
+
+Assembly.Comment:
+
+
+## Body ##################################################################
+
+VehicleModel = Vhcl_2Axle
+nAxle = 2
+VehicleModel.ExtraData =
+Body.mass = 1301
+Body.I = 470 1500 1600
+Body.pos = 2.43 0 0.60
+
+
+Vhclbody.Comment:
+
+
+## Tires #################################################################
+Tire.0 = Examples/RT_225_45R17_p2.50
+Tire.1 = Examples/RT_225_45R17_p2.50
+Tire.2 = Examples/RT_225_45R17_p2.50
+Tire.3 = Examples/RT_225_45R17_p2.50
+AxleR.TwinTiresOn = 0
+Tires.Comment:
+
+
+## Brake #################################################################
+Brake.Kind = CM4SL 1
+Brake.Comment:
+
+
+## Powertrain ############################################################
+PowerTrain.Kind = CM4SL 1
+PowerTrain.Comment:
+
+PowerTrain.Control.StartEngineWithSST = 0
+PowerTrain.Gearbox.0.iForwardGears = 3.4 1.9 1.35 1.05 0.8
+PowerTrain.Gearbox.0.iBackwardGears = -4.0
+
+## Sensor Parametrizations ###############################################
+Sensor.Param.0.Type = SAngle
+Sensor.Param.0.FName =
+Sensor.Param.0.Name = SL_Param
+Sensor.Param.1.Type = Inertial
+Sensor.Param.1.FName =
+Sensor.Param.1.Name = IN_Param
+Sensor.Param.N = 2
+Sensor.Comment:
+
+
+## Sensor Cluster ########################################################
+SensorCluster.N = 0
+
+
+## Sensor Instances ######################################################
+Sensor.N = 2
+Sensor.0.name = A00
+Sensor.0.rot = 0.0 0.0 0.0
+Sensor.0.pos = 2.35 0.0 0.6
+Sensor.0.Visualization = 1
+Sensor.0.VisColor = 0.0 0.0 0.0
+Sensor.0.Mounting = Fr1A
+Sensor.0.Active = 1
+Sensor.0.Ref.Param = 0
+Sensor.0.Ref.Cluster =
+Sensor.1.name = YRS
+Sensor.1.rot = 0.0 0.0 0.0
+Sensor.1.pos = 2.9 0.3 0.8
+Sensor.1.Visualization = 1
+Sensor.1.VisColor = 0.0 0.0 0.0
+Sensor.1.Mounting = Fr1A
+Sensor.1.Active = 1
+Sensor.1.Ref.Param = 1
+Sensor.1.Ref.Cluster =
+Sensor.1.CalcClass = Global+Local
+
+
+## Vehicle Control #######################################################
+VehicleControl.0.Kind =
+
+VehicleControl.1.Kind =
+
+VehicleControl.2.Kind =
+
+VehicleControl.3.Kind =
+
+VehicleControl.4.Kind =
+
+VehicleControl.5.Kind =
+
+VehicleControl.6.Kind =
+
+VehicleControl.7.Kind =
+
+VehicleControl.8.Kind =
+
+VehicleControl.9.Kind =
+
+VehicleControl.Comment:
+
+
+## Show ##################################################################
+Crypto.Show:
+	Picture.PicFName
+	Movie.Skin.FName
+	Vehicle.OuterSkin
+	nAxle
+	Steering.Kind
+	Steering.FName
+	Brake.Kind
+	Brake.FName
+	PowerTrain.Kind
+	PowerTrain.FName
+	CM4SL.ActivateFcn
+	CM4SL.StartFcn
+	CM4SL.StopFcn
+	Sensor.N
+	Sensor.0.Active
+	Sensor.0.Ref.Cluster
+	Sensor.1.Active
+	Sensor.1.Ref.Cluster
+	SensorCluster.N
+Crypto.AllowAccess:
+	GenericPlugin
+
+
+## Additional Parameters #################################################
+Hitch.pos = -0.1 0.0 0.4
+Meas.pos = 0.68 -0.02 0.54
+Meas.rot = 0.0 0.0 0.0
+PowerTrain.DL.iDiff = 3.0
+PowerTrain.GearBox.iForwardGears = 5
+Wheel.fl.pos = 3.35 0.763 0.30
+Wheel.fr.pos = 3.35 -0.763 0.30
+Wheel.rl.pos = 0.73 0.753 0.30
+Wheel.rr.pos = 0.73 -0.753 0.30
+
+Additional.Comment:

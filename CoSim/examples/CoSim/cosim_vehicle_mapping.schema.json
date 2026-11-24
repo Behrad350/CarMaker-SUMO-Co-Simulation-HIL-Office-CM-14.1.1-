@@ -1,0 +1,249 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cosim_vehicle_mapping.schema.json",
+  "title": "cosim_vehicle_mapping",
+  "description": "CarMaker ↔ SUMO co-simulation mapping. Keep this file as a sibling of cosim_vehicle_mapping.json (same CoSim/ folder) so editors resolve $schema for hover and validation.",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Pointer to this schema file, usually the sibling name cosim_vehicle_mapping.schema.json."
+    },
+    "cosim_enable": {
+      "type": "boolean",
+      "description": "Master switch. false = skip SUMO and RT bridge bring-up (CarMaker-only)."
+    },
+    "sumo_sumocfg_path": {
+      "type": "string",
+      "description": "Absolute or project path to the .sumocfg used for in-process TraCI (office). Prefer forward slashes."
+    },
+    "sumo_home": {
+      "type": "string",
+      "description": "Optional SUMO install root for Cosim_bridge spawn mode (resolves to <sumo_home>/bin/sumo.exe). Empty/omitted → env SUMO_HOME or PATH. Not used by office in-process libsumo TraCI."
+    },
+    "sumo_substeps": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of CarMaker cycles between TraCI / SUMO_do_step calls."
+    },
+    "sumo_step_length_s": {
+      "type": "number",
+      "description": "SUMO simulation seconds advanced per TraCI step (--step-length)."
+    },
+    "sumo_gui": {
+      "type": "boolean",
+      "description": "If true, in-process init prefers sumo-gui; otherwise headless sumo."
+    },
+    "SUMO_gui": {
+      "type": "boolean",
+      "description": "Alias of sumo_gui."
+    },
+    "SUMO_lights": {
+      "type": "boolean",
+      "description": "When true, map / write vehicle lights between SUMO and CarMaker traffic DVAs."
+    },
+    "cosim_advance_sync": {
+      "type": "boolean",
+      "description": "A★→B Hermite / predictive sync (office + RT host when enabled). Wizard default true (BR692 mapping)."
+    },
+    "cosim_ego_predict_horizon_s": {
+      "type": "number",
+      "description": "Look-ahead horizon [s] for ego prediction when cosim_advance_sync is true. 0 uses sumo_step_length_s."
+    },
+    "cosim_logging_enabled": {
+      "type": "boolean",
+      "description": "Enable verbose cosim / native_cosim logging."
+    },
+    "coordinate_alignment": {
+      "type": "object",
+      "description": "Rigid transform SUMO ↔ CarMaker Fr0. Tune with Coordinate_Alignment_Wizard.py.",
+      "properties": {
+        "g_theta_rad": {
+          "type": "number",
+          "description": "Rotation between frames [rad]."
+        },
+        "g_dx": {
+          "type": "number",
+          "description": "Translation X [m]."
+        },
+        "g_dy": {
+          "type": "number",
+          "description": "Translation Y [m]."
+        }
+      }
+    },
+    "roi": {
+      "description": "Region of interest around ego in Fr0. Use a number (radius m), null/none, or { radius_m } / { radius }.",
+      "anyOf": [
+        { "type": "null" },
+        { "type": "number", "minimum": 0 },
+        {
+          "type": "object",
+          "properties": {
+            "radius_m": { "type": "number", "minimum": 0, "description": "ROI radius [m]." },
+            "radius": { "type": "number", "minimum": 0, "description": "Alias of radius_m." }
+          }
+        }
+      ]
+    },
+    "rt_host_rx_enable": {
+      "type": "boolean",
+      "description": "HIL: receive traffic UDP from the host (native_cosim). On office builds this is forced off in favour of local TraCI."
+    },
+    "rt_host_rx_port": {
+      "type": "integer",
+      "description": "UDP port on the RT for traffic frames from the host."
+    },
+    "rt_host_rx_timeout_s": {
+      "type": "number",
+      "description": "Seconds without traffic packets before slots are hidden / timeout policy applies."
+    },
+    "rt_ego_tx_enable": {
+      "type": "boolean",
+      "description": "HIL: send ego (and actors) UDP to the host bridge."
+    },
+    "rt_ego_tx_ip": {
+      "type": "string",
+      "description": "Host IP address for ego UDP from the RT."
+    },
+    "rt_ego_tx_port": {
+      "type": "integer",
+      "description": "Host UDP port that receives ego frames."
+    },
+    "rt_ego_tx_decimation": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Send ego UDP every N CarMaker cycles."
+    },
+    "rt_actor_tx_decimation": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Send actor UDP every N CarMaker cycles."
+    },
+    "rt_bridge_hz": {
+      "type": "number",
+      "description": "Host bridge main-loop rate [Hz] (native_cosim)."
+    },
+    "rt_target_ip": {
+      "type": "string",
+      "description": "Host → RT traffic UDP destination IP (native_cosim)."
+    },
+    "rt_traffic_tx_ip": {
+      "type": "string",
+      "description": "Alias of rt_target_ip for traffic TX destination."
+    },
+    "rt_traffic_tx_hz": {
+      "type": "number",
+      "description": "Optional cap for between-step traffic UDP rate on the host."
+    },
+    "traci_host": {
+      "type": "string",
+      "description": "TraCI host for native_cosim attach mode (default localhost)."
+    },
+    "traci_port": {
+      "type": "integer",
+      "description": "TraCI port for native_cosim (default often 8813)."
+    },
+    "actor_enabled": {
+      "type": "boolean",
+      "description": "Enable Roleplay / non-pool actor mirroring into SUMO."
+    },
+    "actor_instances": {
+      "type": "array",
+      "description": "Optional actor list discovered from the TestRun.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ipg_name": { "type": "string", "description": "CarMaker Traffic object name." },
+          "template": { "type": "string", "description": "IPG template path/name." },
+          "vtype_id": { "type": "string", "description": "SUMO vType id." },
+          "length_m": { "type": "number", "description": "Vehicle length [m] rear→front." },
+          "free_motion": { "type": "boolean", "description": "Whether the CM object is free-motion." }
+        }
+      }
+    },
+    "vehicles": {
+      "type": "array",
+      "description": "Vehicle catalogue (ego, actors, templates) used by the orchestrator and length setup.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string",
+            "description": "Role such as ego or actor."
+          },
+          "template": {
+            "type": "string",
+            "description": "IPG vehicle / traffic template."
+          },
+          "vtype_id": {
+            "type": "string",
+            "description": "SUMO vType id."
+          },
+          "length_m": {
+            "type": "number",
+            "description": "Length [m] for rear→front pose conversion."
+          },
+          "ipg_name": {
+            "type": "string",
+            "description": "Optional CarMaker name for non-ego entries."
+          }
+        }
+      }
+    },
+    "traffic_slots": {
+      "type": "array",
+      "description": "Pool slots that receive SUMO flow vehicles. ipg_name must match TestRun Traffic objects.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slot_index": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Zero-based slot index."
+          },
+          "ipg_name": {
+            "type": "string",
+            "description": "CarMaker Traffic.* name (e.g. T01)."
+          },
+          "expected_vtype_id": {
+            "type": "string",
+            "description": "SUMO vType expected for this slot (empty = wildcard)."
+          },
+          "length_m": {
+            "type": "number",
+            "description": "Length [m] for this slot's rear→front conversion."
+          }
+        }
+      }
+    },
+    "flow_prefixes": {
+      "type": "array",
+      "description": "SUMO vehicle id prefixes assigned to the IPG traffic pool (e.g. flow0.).",
+      "items": { "type": "string" }
+    },
+    "vtype_slot_indices": {
+      "type": "object",
+      "description": "Map of SUMO vType id → array of traffic slot indices.",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "integer" }
+      }
+    },
+    "vtype_slots": {
+      "type": "object",
+      "description": "Optional map of vType id → traffic slot name lists.",
+      "additionalProperties": true
+    },
+    "template_to_vtype": {
+      "type": "object",
+      "description": "Optional map IPG template → SUMO vType id.",
+      "additionalProperties": { "type": "string" }
+    },
+    "ego_template": {
+      "type": "string",
+      "description": "Informational ego template / vehicle path from the orchestrator."
+    }
+  },
+  "additionalProperties": true
+}

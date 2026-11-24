@@ -1,0 +1,73 @@
+CMSumoCosim — third-party notices
+=================================
+
+This package is primarily licensed under the MIT License (see LICENSE) for
+original CMSumoCosim code (headers, static libraries, User patch examples,
+Orchestrator wizards, Cosim_bridge application binary built by the authors,
+documentation, and project-authored sample scenarios).
+
+The following components are redistributed or referenced under their own terms.
+They are NOT covered by the MIT License above.
+
+
+1) Eclipse SUMO (TraCI / libsumo client libraries)
+-------------------------------------------------
+Files (typical location: CoSim/Cosim_bridge/):
+  - libsumocpp.dll
+  - libtracicpp.dll
+
+These libraries originate from the Eclipse SUMO project and are redistributed
+to match the Cosim_bridge TraCI client build (documented against SUMO 1.23.1).
+
+License: Eclipse Public License (EPL) — see https://www.eclipse.org/legal/epl-2.0/
+Project: https://eclipse.dev/sumo/  /  https://github.com/eclipse-sumo/sumo
+
+Do not replace these DLLs with mismatched builds unless you rebuild Cosim_bridge
+against the same toolchain/ABI.
+
+
+2) Apache Xerces-C++
+--------------------
+File: CoSim/Cosim_bridge/xerces-c_*.dll
+
+License: Apache License 2.0
+https://xerces.apache.org/
+
+
+3) zlib
+-------
+File: CoSim/Cosim_bridge/zlib1.dll
+
+License: zlib License
+https://www.zlib.net/zlib_license.html
+
+
+4) IPG CarMaker sample / convenience data
+-----------------------------------------
+Optional example content under CoSim/examples/Data/ may include TestRuns, roads,
+traffic/driver snippets, and vehicle parameter files that originate from or are
+derived from IPG CarMaker example material, shipped only for convenience so a
+first co-simulation can be tried quickly.
+
+- This package does NOT include the CarMaker application, runtime, or license.
+- CarMaker® is a product of IPG Automotive. All IPG trademarks remain with IPG.
+- You need a valid IPG CarMaker license (and installation) to run the CarMaker
+  side of co-simulation. Redistribution of CarMaker software itself is not
+  authorized by this kit.
+- If your organization forbids redistributing IPG example Data files, remove
+  CoSim/examples/Data/ before sharing further copies.
+
+
+5) Eclipse SUMO scenario samples
+--------------------------------
+Example networks/routes under CoSim/examples/CoSim/SUMO/ are scenario files for
+use with SUMO. SUMO itself is not bundled (install Eclipse SUMO separately for
+sumo.exe / sumo-gui.exe).
+
+
+Disclaimer
+----------
+CMSumoCosim author provides this kit “as is” and make no warranty regarding
+third-party licenses beyond redistributing the notices above. Downstream users
+remain responsible for complying with IPG, Eclipse SUMO/EPL, Apache, and zlib
+terms in their environment.

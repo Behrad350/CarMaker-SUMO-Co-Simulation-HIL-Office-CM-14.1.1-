@@ -1,0 +1,526 @@
+{
+  "$schema": "cosim_vehicle_mapping.schema.json",
+  "cosim_enable": true,
+  "ego_template": "Examples/DemoCar_ACC",
+  "sumo_sumocfg_path": "C:/CM_Projects/BR693/CMSumoCosim/CoSim/examples/CoSim/SUMO/Testmap_2.sumocfg",
+  "sumo_home": "C:/Program Files (x86)/Eclipse/Sumo",
+  "SUMO_lights": true,
+  "sumo_gui": false,
+  "sumo_substeps": 100,
+  "sumo_step_length_s": 0.1,
+  "rt_bridge_hz": 1000.0,
+  "cosim_advance_sync": true,
+  "cosim_ego_predict_horizon_s": 0.1,
+  "rt_target_ip": "192.168.0.241",
+  "rt_host_rx_enable": true,
+  "rt_host_rx_port": 50051,
+  "rt_host_rx_timeout_s": 0.5,
+  "rt_ego_tx_enable": true,
+  "rt_ego_tx_ip": "192.168.0.22",
+  "rt_ego_tx_port": 50052,
+  "rt_ego_tx_decimation": 1,
+  "rt_actor_tx_decimation": 1,
+  "actor_enabled": false,
+  "cosim_logging_enabled": false,
+  "roi": 200,
+  "vehicles": [
+    {
+      "role": "ego",
+      "template": "Examples/DemoCar_ACC",
+      "vtype_id": "ego_car",
+      "length_m": 4.28,
+      "width_m": 1.8,
+      "height_m": 1.29,
+      "vmax_ms": null,
+      "axmax_ms2": null
+    },
+    {
+      "role": "traffic",
+      "template": "1_Vehicles/BMW_5_2017_Blue",
+      "vtype_id": "car1",
+      "length_m": 4.93,
+      "width_m": 1.85,
+      "height_m": 1.27,
+      "vmax_ms": 69.44444444444444,
+      "axmax_ms2": 6.5
+    },
+    {
+      "role": "traffic",
+      "template": "1_Vehicles/WeatherVehicles/BMW_X5_2021_MSport_Weather",
+      "vtype_id": "car2",
+      "length_m": 4.922,
+      "width_m": 2.004,
+      "height_m": 1.495,
+      "vmax_ms": 69.44444444444444,
+      "axmax_ms2": 7.2
+    }
+  ],
+  "template_to_vtype": {
+    "ego": "ego_car",
+    "1_Vehicles/BMW_5_2017_Blue": "car1",
+    "1_Vehicles/WeatherVehicles/BMW_X5_2021_MSport_Weather": "car2"
+  },
+  "traffic_slots": [
+    {
+      "slot_index": 0,
+      "ipg_name": "T01",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 1,
+      "ipg_name": "T01_1",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 2,
+      "ipg_name": "T01_2",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 3,
+      "ipg_name": "T01_3",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 4,
+      "ipg_name": "T01_4",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 5,
+      "ipg_name": "T01_5",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 6,
+      "ipg_name": "T01_6",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 7,
+      "ipg_name": "T01_7",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 8,
+      "ipg_name": "T01_8",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 9,
+      "ipg_name": "T01_9",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 10,
+      "ipg_name": "T01_10",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 11,
+      "ipg_name": "T01_11",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 12,
+      "ipg_name": "T01_12",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 13,
+      "ipg_name": "T01_13",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 14,
+      "ipg_name": "T01_14",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 15,
+      "ipg_name": "T01_15",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 16,
+      "ipg_name": "T01_16",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 17,
+      "ipg_name": "T01_17",
+      "expected_vtype_id": "car2",
+      "length_m": 4.922
+    },
+    {
+      "slot_index": 18,
+      "ipg_name": "T00",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 19,
+      "ipg_name": "T00_1",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 20,
+      "ipg_name": "T00_2",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 21,
+      "ipg_name": "T00_3",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 22,
+      "ipg_name": "T00_4",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 23,
+      "ipg_name": "T00_5",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 24,
+      "ipg_name": "T00_6",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 25,
+      "ipg_name": "T00_7",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 26,
+      "ipg_name": "T00_8",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 27,
+      "ipg_name": "T00_9",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 28,
+      "ipg_name": "T00_10",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 29,
+      "ipg_name": "T00_11",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 30,
+      "ipg_name": "T00_12",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 31,
+      "ipg_name": "T00_13",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 32,
+      "ipg_name": "T00_14",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 33,
+      "ipg_name": "T00_15",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 34,
+      "ipg_name": "T00_16",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 35,
+      "ipg_name": "T00_17",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 36,
+      "ipg_name": "T00_18",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 37,
+      "ipg_name": "T00_19",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 38,
+      "ipg_name": "T00_20",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 39,
+      "ipg_name": "T00_21",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 40,
+      "ipg_name": "T00_22",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 41,
+      "ipg_name": "T00_23",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 42,
+      "ipg_name": "T00_24",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 43,
+      "ipg_name": "T00_25",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 44,
+      "ipg_name": "T00_26",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 45,
+      "ipg_name": "T00_27",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 46,
+      "ipg_name": "T00_28",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 47,
+      "ipg_name": "T00_29",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 48,
+      "ipg_name": "T00_30",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 49,
+      "ipg_name": "T00_31",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 50,
+      "ipg_name": "T00_32",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 51,
+      "ipg_name": "T00_33",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 52,
+      "ipg_name": "T00_34",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 53,
+      "ipg_name": "T00_35",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    },
+    {
+      "slot_index": 54,
+      "ipg_name": "T00_36",
+      "expected_vtype_id": "car1",
+      "length_m": 4.93
+    }
+  ],
+  "actor_instances": [],
+  "flow_prefixes": [
+    "f_main_L0."
+  ],
+  "vtype_slots": {
+    "car2": [
+      "T01",
+      "T01_1",
+      "T01_2",
+      "T01_3",
+      "T01_4",
+      "T01_5",
+      "T01_6",
+      "T01_7",
+      "T01_8",
+      "T01_9",
+      "T01_10",
+      "T01_11",
+      "T01_12",
+      "T01_13",
+      "T01_14",
+      "T01_15",
+      "T01_16",
+      "T01_17"
+    ],
+    "car1": [
+      "T00",
+      "T00_1",
+      "T00_2",
+      "T00_3",
+      "T00_4",
+      "T00_5",
+      "T00_6",
+      "T00_7",
+      "T00_8",
+      "T00_9",
+      "T00_10",
+      "T00_11",
+      "T00_12",
+      "T00_13",
+      "T00_14",
+      "T00_15",
+      "T00_16",
+      "T00_17",
+      "T00_18",
+      "T00_19",
+      "T00_20",
+      "T00_21",
+      "T00_22",
+      "T00_23",
+      "T00_24",
+      "T00_25",
+      "T00_26",
+      "T00_27",
+      "T00_28",
+      "T00_29",
+      "T00_30",
+      "T00_31",
+      "T00_32",
+      "T00_33",
+      "T00_34",
+      "T00_35",
+      "T00_36"
+    ]
+  },
+  "vtype_slot_indices": {
+    "car2": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "car1": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  "coordinate_alignment": {
+    "g_theta_rad": 0.0,
+    "g_dx": -763.72185139,
+    "g_dy": -306.85809320000004
+  }
+}
